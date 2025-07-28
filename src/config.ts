@@ -3,7 +3,7 @@ export const SITE = {
   author: "khongai",
   profile: "https://khongai.com",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  title: "Khong Ai",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
