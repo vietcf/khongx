@@ -9,8 +9,7 @@ tags:
   - cryptocurrency
   - cloud
   - security
-ogImage: "astropaper-og.jpg",
-description: Chào mừng bạn đến với khongai.com - blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ.
+description: "Chào mừng bạn đến với khongai.com - blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ."
 ---
 
 Chào mừng bạn đến với **khongai.com** - không gian chia sẻ kiến thức và kinh nghiệm về những lĩnh vực công nghệ đang định hình tương lai!
