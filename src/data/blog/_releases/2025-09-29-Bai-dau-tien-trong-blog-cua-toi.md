@@ -1,18 +1,15 @@
 ---
 author: khongai
-pubDatetime: 2025-09-29T15:57:52.737Z
-title: Bài đầu tiên tròng blog của tôi
-slug: bai-dau-tien-trong-blog-cua-toi
-featured: false
-ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
+pubDatetime: 2025-01-15T10:00:00Z
+title: Chào mừng đến với khongai.com - Nơi khám phá thế giới công nghệ
+slug: chao-mung-den-voi-khongai-com
+featured: true
+draft: false
 tags:
-  - giới thiệu
-  - blog
-  - công nghệ
-  - tiền số
+  - cryptocurrency
   - cloud
   - security
-description: "Chào mừng bạn đến với khongai.com - blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ."
+description: Chào mừng bạn đến với khongai.com - blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ.
 ---
 
 Chào mừng bạn đến với **khongai.com** - không gian chia sẻ kiến thức và kinh nghiệm về những lĩnh vực công nghệ đang định hình tương lai!
