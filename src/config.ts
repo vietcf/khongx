@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://khongai.com", // replace this with your deployed domain
   author: "khongai",
   profile: "https://khongai.com",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ.",
   title: "khongai.com",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
