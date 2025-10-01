@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://khongai.com",
   desc: "Blog chuyên sâu về tiền số, cloud computing và bảo mật thông tin. Nơi chia sẻ kiến thức và kinh nghiệm trong lĩnh vực công nghệ.",
   title: "khongai.com",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "khongai.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
