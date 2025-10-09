@@ -5,11 +5,8 @@ title: Chào mừng đến với khongai.com
 slug: chao-mung-den-voi-khongai-com
 featured: true
 draft: false
-tags:
-  - cryptocurrency
-  - cloud
-  - security
-description: "Chào mừng bạn đến với khongai.com của tôi, nơi chia sẻ những trải nghiệm cuộc sống xung quanh tôi."
+description: 
+  Chào mừng bạn đến với khongai.com của tôi, nơi chia sẻ những trải nghiệm cuộc sống xung quanh tôi.
 ---
 
 # Chào mừng bạn đến với khongai.com!
