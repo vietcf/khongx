@@ -1,5 +1,6 @@
 ---
 author: khongai
+ogImage: /public/khongai.jpg
 pubDatetime: 2025-09-01T10:00:00Z
 title: Chào mừng đến với khongai.com
 slug: chao-mung-den-voi-khongai-com

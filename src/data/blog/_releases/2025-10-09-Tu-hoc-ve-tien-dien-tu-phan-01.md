@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: khongai
 pubDatetime: 2025-10-08T15:22:00Z
 modDatetime: 2025-10-08T16:52:45.934Z
 title: Hành trình tự học về tiền mã hóa cho người mới bắt đầu - Phần 1, Giới thiệu
