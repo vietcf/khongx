@@ -9,7 +9,7 @@ Chào mừng đến với khongai.com của tôi,
 
 ## Giới thiệu về tôi
 
-Tôi là một người thuộc thế hệ **9x**, **lớn lên** trên **cánh đồng** ở làng quê và  **trưởng thành** cùng với **internet**. Hiện tại, tôi đang làm việc trong lĩnh vực **công nghệ**.
+Tôi là một người thuộc thế hệ 9x, **lớn lên** trên **cánh đồng quê** và  **trưởng thành** cùng với **internet**. Hiện tại, tôi đang làm việc trong lĩnh vực **công nghệ**.
 
 Đây là nơi tôi ghi chép và tổng hợp những gì xoay quanh cuộc sống hiện tại của mình.
 
