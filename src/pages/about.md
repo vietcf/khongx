@@ -15,9 +15,6 @@ The blog posts in this theme also serve as guides, docs or example articles\_ ma
 
 AstroPaper comes with a set of useful features that make content publishing easy and effective:
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
 - Highly customizable
 - Organizable blog posts
 - Responsive & accessible
