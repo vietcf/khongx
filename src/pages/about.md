@@ -3,32 +3,20 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Chào mừng đến với khongai.com của tôi,
 
-![Astro Paper](public/khongai.jpg)
+![KhongAI](public/khongai.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## Giới thiệu về tôi
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Tôi là một người thuộc thế hệ **9x**, **lớn lên** trên **cánh đồng** ở làng quê và  **trưởng thành** cùng với **internet**. Hiện tại, tôi đang làm việc trong lĩnh vực **công nghệ**.
 
-## Features
+Đây là nơi tôi ghi chép và tổng hợp những gì xoay quanh cuộc sống hiện tại của mình.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Nếu bạn cảm thấy hứng thú, hãy liên lạc với tôi qua các kênh bên dưới:
 
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+**Social Links:**
 
-and so much more.
+import Socials from "@/components/Socials.astro";
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+<Socials centered={true} />
