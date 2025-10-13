@@ -14,11 +14,9 @@ description:
 
 ## Vấn đề của giao dịch trong thị trường tài chính hiện tại và bài toán cryptocurrency giải quyết?
 
-Chắc hẳn mọi người không quá xa lạ với sự lùm xùm của Khoa Pug & Johnny Đặng – YTB độc lập tài chính & "Ông" vua kim hoàn đã phối hợp lùa gà bằng đồng DBZ, Mr Pips – Thanh niên 9X có trong tay 5k tỷ đồng, Shark Bình cầm vài triệu $ với dự án Antex rồi biến mất, … mà báo chí đưa rầm rộ gần đây, tất cả đều liên quan tới cryptocurrency.
+Chắc hẳn mọi người không quá xa lạ với sự lùm xùm của Khoa Pug & Johnny Đặng – YTB độc lập tài chính & "Ông" vua kim hoàn đã phối hợp lùa gà bằng đồng DBZ, Mr Pips – Thanh niên 9X có trong tay 5k tỷ đồng, Shark Bình cầm vài triệu $ với dự án Antex, … mà báo chí đưa rầm rộ gần đây, tất cả đều liên quan tới Cryptocurrency. Tôi tin sẽ không ít người như tôi tự hỏi "Cryptocurrency là cái gì mà tụi làm cái này giàu vậy?", không biết liệu mình có thể “kiếm chác” được gì trong thế giới Cryptocurrency này không? – Một sự kích thích không hề nhẹ phải không??? Nhưng tạm dẹp điều ấy sang một bên.
 
-Chắc không ít người như tôi tự hỏi **cryptocurrency là cái gì mà làm tụi làm cái này giàu vậy?** và không biết liệu mình có thể “kiếm chác” được gì không trong thế giới cryptocurrency này – Một sự kích thích không hề nhẹ phải không??? Nhưng tạm dẹp điều ấy sang một bên.
-
-Trước khi bắt đầu tôi nghĩ vẫn cần nói qua lý do tại sao người ta lại tạo ra Cryptocurrency theo quan điểm mà người làm crypto “Chính thống” - Người thai nghén ra nó tuyên bố hơn là chỉ thấy bề nổi là xèng với xèng.
+Trước khi bắt đầu tôi nghĩ vẫn cần tìm hiểu qua lý do tại sao người ta lại tạo ra Cryptocurrency, theo quan điểm “Chính thống” - Tức  là quan điểm mà người đã "thai nghén ra" nó tuyên bố hơn là chỉ thấy bề nổi là xèng với xèng.
 
 ## Hệ thống tài chính truyền thống và vấn đề "Đặt Niềm Tin"
 
