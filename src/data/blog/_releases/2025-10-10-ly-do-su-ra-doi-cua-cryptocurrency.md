@@ -2,7 +2,7 @@
 author: khongai
 pubDatetime: 2025-10-10T15:22:00Z
 modDatetime: 2025-10-10T16:52:45.934Z
-title: Cryptocurrency 101 - Phần 1, Lý do sự ra đời của Cryptocurrency
+title: Cryptocurrency 101 - Phần 2, Lý do sự ra đời của Cryptocurrency
 slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan02-ly-do-su-da-doi-cryptocurrency
 featured: false
 draft: false
