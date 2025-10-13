@@ -32,13 +32,13 @@ Việc đặt niềm tin hoàn toàn vào bên thứ 3 như hiện tại, một 
 
 * **Tính riêng tư:** Có nhiều người/tổ chức chuyển tiền cho nhau nhưng lại muốn ẩn danh mà chỉ muốn 2 bên biết, hoặc thậm trí chỉ mình họ biết. Nhưng với mô hình hiện tại việc này không thể làm được do để thực hiện chuyển tiền bạn và bên nhận phải đăng ký thông tin với trung gian. Trung gian hoàn toàn có thông tin bạn là ai, sau đó là giao dịch với ai, giao dịch bao nhiêu và thời gian giao dịch bao giờ. Với năng lực đủ mạnh như "đơn vị thực thi pháp luật" họ hoàn có thể truy vết dòng tiền của bạn.
 
-Dễ thấy rằng mô hình truyền thống này phụ thuộc vào trung gian thanh toán trên cơ sở dựa trên **“niềm tin”**. Và nhiều người họ lại không muốn điều này, muốn thay vì dựa vào niềm tin họ cần bằng chứng, ở đây họ sử dụng **"bằng chứng số"** – cụ thể là mật mã học. Vậy là họ đã nghiên cứu và tạo ra Cryptocurrency.
+Dễ thấy rằng mô hình truyền thống này phụ thuộc vào trung gian thanh toán, cơ sở dựa trên **“niềm tin”**. Và nhiều người họ lại không muốn điều này, thay vì dựa trên niềm tin họ cần bằng chứng, với Cryptocurrency là **"bằng chứng số"** – cụ thể là mật mã học. Vậy là họ đã nghiên cứu và tạo ra Cryptocurrency.
 
 ## Cryptocurrency Giải pháp Dựa trên Bằng Chứng Số
 
 Những người làm ra cryptocurrency tuyên bố rằng: 
 
->"Cryptocurrency ra đời để loại bỏ sự phụ thuộc vào trung gian, trao quyền kiểm soát tài sản trực tiếp cho người dùng và tạo ra một hệ thống tài chính mở, minh bạch, toàn cầu"
+>Cryptocurrency ra đời để loại bỏ sự phụ thuộc vào trung gian, trao quyền kiểm soát tài sản trực tiếp cho người dùng và tạo ra một hệ thống tài chính mở, minh bạch, toàn cầu
 
 Nó giải quyết các vấn đề mà tôi nêu ở trên bằng mô tả trong bảng sau:
 
