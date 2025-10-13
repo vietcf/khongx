@@ -30,7 +30,7 @@ Việc đặt niềm tin hoàn toàn vào bên thứ 3 như hiện tại, một 
 
 * **Tính sẵn sàng:** Vì lý do nào đó ví dụ thưà lệnh của BCA, hay bạn đang nợ tiền thì ngân hàng hoàn toàn có thể khóa tài khoản của bạn, làm đóng băng khoản tiền bạn có –> dù bạn có tiền của bạn nhưng bạn lại không thật sự sở hữu tiền.
 
-* **Tính riêng tư:** Có nhiều người/tổ chức vì lý do họ chuyển tiền cho nhau nhưng lại muốn ẩn danh và chỉ 2 bên biết, hoặc thậm trí chỉ mình họ biết. Nhưng với mô hình hiện tại việc này không thể làm được do để thực hiện chuyển tiền bạn và bên nhận phải đăng ký thông tin với trung gian. Trung gian hoàn toàn có thông tin bạn là ai, sau đó là giao dịch với ai, giao dịch bao nhiêu và thời gian giao dịch bao giờ. Với năng lực đủ mạnh như "đơn vị thực thi pháp luật" họ hoàn có thể truy vết dòng tiền của bạn.
+* **Tính riêng tư:** Có nhiều người/tổ chức chuyển tiền cho nhau nhưng lại muốn ẩn danh mà chỉ muốn 2 bên biết, hoặc thậm trí chỉ mình họ biết. Nhưng với mô hình hiện tại việc này không thể làm được do để thực hiện chuyển tiền bạn và bên nhận phải đăng ký thông tin với trung gian. Trung gian hoàn toàn có thông tin bạn là ai, sau đó là giao dịch với ai, giao dịch bao nhiêu và thời gian giao dịch bao giờ. Với năng lực đủ mạnh như "đơn vị thực thi pháp luật" họ hoàn có thể truy vết dòng tiền của bạn.
 
 Dễ thấy rằng mô hình truyền thống này phụ thuộc vào trung gian thanh toán trên cơ sở dựa trên **“niềm tin”**. Và nhiều người họ lại không muốn điều này, muốn thay vì dựa vào niềm tin họ cần bằng chứng, ở đây họ sử dụng **"bằng chứng số"** – cụ thể là mật mã học. Vậy là họ đã nghiên cứu và tạo ra Cryptocurrency.
 
