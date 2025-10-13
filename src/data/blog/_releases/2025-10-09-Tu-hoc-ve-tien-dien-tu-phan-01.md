@@ -2,8 +2,8 @@
 author: khongai
 pubDatetime: 2025-10-08T15:22:00Z
 modDatetime: 2025-10-08T16:52:45.934Z
-title: Hành trình tự học về tiền mã hóa cho người mới bắt đầu - Phần 1, Giới thiệu
-slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan01
+title: Hành trình tự học về tiền mã hóa cho người mới bắt đầu. Cryptocurrency 101 - Phần 1, Giới thiệu
+slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan01-gioi-thieu
 featured: false
 draft: false
 tags:
