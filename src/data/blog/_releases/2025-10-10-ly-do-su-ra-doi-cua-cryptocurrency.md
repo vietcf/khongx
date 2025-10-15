@@ -1,5 +1,6 @@
 ---
 author: khongai
+ogImage: /public/assets/2025/10/09/crypto_intro.png
 pubDatetime: 2025-10-10T15:22:00Z
 modDatetime: 2025-10-10T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 2, Lý do sự ra đời của Cryptocurrency

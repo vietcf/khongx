@@ -1,5 +1,6 @@
 ---
 author: khongai
+ogImage: /public/assets/2025/10/09/crypto_intro.png
 pubDatetime: 2025-10-08T15:22:00Z
 modDatetime: 2025-10-08T16:52:45.934Z
 title: Hành trình tự học về tiền điện tử mã hóa cho người mới bắt đầu. Cryptocurrency 101 - Phần 1, Giới thiệu

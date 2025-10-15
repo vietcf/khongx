@@ -1,5 +1,6 @@
 ---
 author: khongai
+ogImage: /public/assets/2025/10/09/crypto_intro.png
 pubDatetime: 2025-10-14T15:22:00Z
 modDatetime: 2025-10-14T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 3, Hướng dẫn thực hiện giao dịch tiền điện tử mã hóa đầu tiên
