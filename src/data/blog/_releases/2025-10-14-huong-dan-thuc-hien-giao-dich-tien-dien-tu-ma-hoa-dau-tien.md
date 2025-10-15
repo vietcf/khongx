@@ -14,7 +14,7 @@ description:
 
 # Góc lý thuyết - Một số khái niệm cơ bản
 
-Trước khi bắt đầu **giao dịch Cryptocurrency đầu tiên**, có một số khái niệm đơn giản mà tôi nghĩ chúng ta cần nắm rõ. 
+Trước khi bắt đầu thực hiện **giao dịch Cryptocurrency đầu tiên**, có một số khái niệm đơn giản mà tôi nghĩ chúng ta cần nắm rõ. 
 
 Đây đều là các khái niệm chung, nghĩa là tương tự ở các đồng tiền điện tử mã hóa (Cryptocurrency) khác nhau. Bài viết này tôi dùng **Bitcoin** làm ví dụ.
 
