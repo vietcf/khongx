@@ -25,29 +25,31 @@ export const SOCIALS: Social[] = [
     icon: IconFacebook,
   },
   {
-    name: "GitHub",
-    href: "https://github.com",
-    linkTitle: `${SITE.title} on GitHub`,
-    icon: IconGitHub,
-  },
-  {
     name: "X",
-    href: "https://x.com",
+    href: "https://x.com/longaka18",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
-  },
-  {
-    name: "Mail",
-    href: "mailto:example@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    icon: IconMail,
-  },
+  }
+  // ,
+  // {
+  //   name: "GitHub",
+  //   href: "https://github.com",
+  //   linkTitle: `${SITE.title} on GitHub`,
+  //   icon: IconGitHub,
+  // }
+  // ,
+  // {
+  //   name: "LinkedIn",
+  //   href: "https://www.linkedin.com",
+  //   linkTitle: `${SITE.title} on LinkedIn`,
+  //   icon: IconLinkedin,
+  // },
+  // {
+  //   name: "Mail",
+  //   href: "mailto:example@gmail.com",
+  //   linkTitle: `Send an email to ${SITE.title}`,
+  //   icon: IconMail,
+  // },
 ] as const;
 
 export const SHARE_LINKS: Social[] = [
