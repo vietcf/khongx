@@ -53,7 +53,7 @@ Nó giải quyết các vấn đề mà tôi nêu ở trên bằng mô tả tron
 
 ## Một chút "lịch sử ra đời"
 
-Ý tưởng về tiền điện tử không phải mãi tới tận khi có Bitcoint (BTC) 2009 mới có. Ý tưởng đó đã có từ khá lâu, theo wiki ([https://en.wikipedia.org/wiki/Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)) có từ những năm 1980. Trải qua vài chục năm phát triển tính đến giờ có cả trăm loại tiền điện tử (Cũng như tiền giấy có cả vài trăm đồng tiền VNĐ, USD, Erour, …). Trong đó tới thời điểm hiện tại **Bitcoin (BTC) là đồng tiền thành công và giá trị nhất.**
+Ý tưởng về tiền điện tử không phải mãi tới tận khi có Bitcoin (BTC) 2009 mới có. Ý tưởng đó đã có từ khá lâu, theo wiki ([https://en.wikipedia.org/wiki/Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)) có từ những năm 1980. Trải qua vài chục năm phát triển tính đến giờ có cả trăm loại tiền điện tử (Cũng như tiền giấy có cả vài trăm đồng tiền VNĐ, USD, Erour, …). Trong đó tới thời điểm hiện tại **Bitcoin (BTC) là đồng tiền thành công và giá trị nhất.**
 
 Khi nhắc về Bitcoin(BTC) người ta hay nói tới cái tên Satoshi Nakamoto* - Là cha đẻ của BTC. Có người nói đó là "bí danh" mà đứng sau là một tổ chức - Cũng chưa ai khẳng định được tính xác thực của thông tin này. Sau khi phát hành Satoshi Nakamoto* đã trao quyền phát triển mã nguồn BTC cho cộng đồng và biến mất.
 
@@ -61,4 +61,4 @@ Khi nhắc về Bitcoin(BTC) người ta hay nói tới cái tên Satoshi Nakamo
 
 Bài viết khá dài nhưng nếu chỉ để lấy một câu kết tôi sẽ lựa chọn câu sau:
 
-> **Crytocurrency ra đời để loại bỏ sự phụ thuộc vào trung gian, trao quyền kiểm soát tài sản trực tiếp cho người dùng và tạo ra một hệ thống tài chính mở, minh bạch, toàn cầu.**
+> **Cryptocurrency ra đời để loại bỏ sự phụ thuộc vào trung gian, trao quyền kiểm soát tài sản trực tiếp cho người dùng và tạo ra một hệ thống tài chính mở, minh bạch, toàn cầu.**
