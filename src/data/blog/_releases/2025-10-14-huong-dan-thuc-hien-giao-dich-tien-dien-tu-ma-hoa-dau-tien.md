@@ -1,7 +1,7 @@
 ---
 author: khongai
-pubDatetime: 2025-10-10T15:22:00Z
-modDatetime: 2025-10-10T16:52:45.934Z
+pubDatetime: 2025-10-14T15:22:00Z
+modDatetime: 2025-10-14T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 3, Hướng dẫn thực hiện giao dịch tiền điện tử mã hóa đầu tiên
 slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan03-thuc-hien-giao-dich-tien-dien-tu-ma-hoa-dau-tien
 featured: false
