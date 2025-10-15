@@ -37,7 +37,7 @@ Nếu bạn là người duy nhất nắm **Private Key**, bạn kiểm soát ho
 
 Để nhấn mạnh điều này, Andreas Antonopoulos (Một chuyên gia nổi tiếng về Bitcoin) đã nói:
 
-> “Your keys, your coins. Not your keys, not your coins.”
+> Your keys, your coins. Not your keys, not your coins.
 > 
 > 
 > (Khóa của bạn – Tiền của bạn. Không có khóa – Không có tiền.) 🔑💰
