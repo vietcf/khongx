@@ -15,11 +15,13 @@ description:
 
 Người sử dụng (chơi) tiền điện tử mã hóa có một số "Thuật ngữ chuyên dùng". Các thuật ngữ này thường do cộng đồng họ đặt ra. Tôi làm bài này để tổng hợp lại những thuật ngữ đó cho dễ theo dõi.
 
-### **Altcoin**
+## Table of contents
+
+### Altcoin
 
 **Altcoin** (Là viết tắt của Alternative Coin, tiếng Việt có nghĩa là “đồng tiền thay thế”) — Dùng để chỉ bất kỳ loại tiền mã hóa nào **KHÔNG** phải là Bitcoin.
 
-### **Stablecoins**
+### Stablecoins
 
 **Stablecoins** Là các loại tiền mã hóa **Có giá trị ổn định**. Để duy trì sự ổn định đó nó phải có một tài sản đảm bảo ngoài đời thực, tài sản này có thể là tiền pháp định (như USD, EUR), hàng hóa (như vàng, dầu) hoặc một loại tiền mã hóa khác (Đúng là vòng tròn mà).
 
@@ -39,7 +41,7 @@ Một số stable coins
 
 Tuy mang cái tên “stable” (ổn định), nhưng stablecoin không phải lúc nào cũng thật sự ổn định. Trong lịch sử, đã có không ít lần các stablecoin "nổi tiếng tin cậy" trượt giá. Điều này xảy ra khi tài sản bảo chứng hoặc thuật toán điều chỉnh cung – cầu có vấn đề.  Tether (USDT) từng giảm còn khoảng 0.95 USD vào tháng 5/2022, trong giai đoạn thị trường hoảng loạn sau sự sụp đổ của TerraUSD (UST), do lo ngại về tính minh bạch của tài sản bảo chứng.
 
-## **Memecoins**
+## Memecoins
 
 - Là các đồng tiền bắt nguồn từ **meme hoặc trò đùa trên Internet**, chúng thường không có mục đích sử dụng rõ ràng mà chủ yếu dựa vào sự lan truyền và ủng hộ của cộng đồng.
 - Ví dụ: **Dogecoin** (lấy cảm hứng từ chú chó Shiba Inu trong meme “Doge”).

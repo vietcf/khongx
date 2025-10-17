@@ -13,6 +13,9 @@ description:
   Hướng dẫn thực hành từng bước giúp người mới hoàn tất giao dịch tiền điện tử mã hóa (cryptocurrency) đầu tiên, từ cài đặt ví, sao lưu seed, tạo địa chỉ nhận đến gửi giao dịch thử.
 ---
 
+## Table of contents
+
+
 # Góc lý thuyết - Một số khái niệm cơ bản
 
 Trước khi bắt đầu thực hiện **giao dịch Cryptocurrency đầu tiên**, có một số khái niệm đơn giản mà tôi nghĩ chúng ta cần nắm rõ. 
