@@ -13,6 +13,9 @@ description:
   Trước khi bắt đầu tôi nghĩ vẫn cần nói qua lý do tại sao người ta lại tạo ra Cryptocurrency theo quan điểm mà người làm crypto “Chính thống” hơn là chỉ thấy bề nổi là xèng với xèng.
 ---
 
+## Table of contents
+
+
 ## Vấn đề của giao dịch trong thị trường tài chính hiện tại và bài toán cryptocurrency giải quyết?
 
 Chắc chúng ta đều đã nghe những lùm xùm trên cõi mạng như: Khoa Pug & Johnny Đặng – Youtuber tự do tài chính & “ông vua kim hoàn” từng bắt tay nhau tung ra đồng DBZ, rồi sau đó “đường ai nấy đi” để phủi trách nhiệm. Hay như câu chuyện của Mr. Pips, chàng trai 9X bỏ túi tới 5.000 tỷ đồng của nhà đầu tư trước khi bị bắt. Rồi Shark Bình cũng từng khiến dư luận dậy sóng khi tham gia dự án Antex với vài triệu đô, ...Tất cả những câu chuyện ấy đều xoay quanh Cryptocurrency. Tôi tin sẽ không ít người như tôi tự hỏi "Cryptocurrency là cái gì mà tụi làm cái này toàn đứa giàu vậy?". Không biết liệu có cơ hội nào cho "mình" trong thế giới Cryptocurrency này không? – Một sự kích thích không hề nhẹ phải không??? Nhưng tạm dẹp điều ấy sang một bên.

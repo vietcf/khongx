@@ -22,3 +22,4 @@ Bắt đầu từ hôm nay, tôi sẽ dành thời gian cá nhân rảnh rỗi �
 Ngắn thì viết 1 bài, dài thì cứ làm hẳn một series luôn. Hãy cùng tôi bắt đầu!
 
 Bitcoin ở thời điểm hiện tại là đồng tiền mã hóa thành công nhất và cũng thuộc loại xuất hiện tương đối sớm nên mang nhiều đặc trưng của tiền mã hóa. Do vậy quá trình tìm hiểu tôi sẽ tập trung vào Bitcoin sau đó có thể sẽ mở rộng ra những thứ khác liên quan. Đọc trên Internet tôi thấy người ta gợi ý cho tôi là có thể xem cuốn "Mastering Bitcoin" (Cái series Mastering XXX nghe nó rất quen với anh/em kỹ thuật phải không). OK, sẽ dựa nó để có các nội dung chính thống nhất.
+
