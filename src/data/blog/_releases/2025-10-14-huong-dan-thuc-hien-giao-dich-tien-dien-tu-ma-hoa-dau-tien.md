@@ -90,3 +90,5 @@ Khi nói đến **testnet**, bạn sẽ thường nghe đến khái niệm **Fau
 Từ **“Faucet”** trong tiếng Việt nghĩa là “**vòi nước nhỏ giọt**”. Đây là một cách chơi chữ mang tính hình tượng, dùng để mô tả cơ chế “phát” một lượng nhỏ “tiền” — kiểu như “nhỏ giọt” — để người dùng **thử nghiệm và làm quen**.
 
 Trong bài này, tôi sử dụng **mạng testnet** để thực hiện giao dịch đầu tiên mang tính **demo**. Trên mạng **mainnet**, quy trình thực hiện **tương tự** gần như không có khác biệt gì.
+
+![Create wallet](/assets/2025/10/14/create_wallet.gif)
