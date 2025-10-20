@@ -76,3 +76,17 @@ Trong thế giới thực khi chuyển tiền cho người khác bạn cần s�
 Điều này có nghĩa là nếu bạn **dùng lại cùng một địa chỉ nhiều lần** người khác có thể **xem được tổng số tiền nhận được** qua địa chỉ đó. Vì vậy,**nên tạo địa chỉ mới mỗi lần nhận thanh toán** để bảo vệ quyền riêng tư.
 
 ## Cùng nhau tạo giao dịch Cryptocurrency đầu tiên
+
+Tôi lựa chọn **Bitcoin** để thực hiện giao dịch đầu tiên. Ở phần mô tả bên trên có nhiều loại ví khác nhau, và để đơn giản, tôi sử dụng **Mobile Wallet** (ví di động).
+
+Các hệ thống **Cryptocurrency**, bao gồm cả **Bitcoin**, không phải chỉ là một hoặc vài máy tính riêng lẻ, mà là **một mạng lưới hàng nghìn máy tính ngang hàng (peer-to-peer)** kết nối với nhau qua Internet. Thông thường, sẽ có một **mạng chính (mainnet)** – nơi các đồng BTC có **giá trị thật**.
+
+Bên cạnh mạng chính, người ta còn xây dựng một **mạng phụ** chuyên dùng cho mục đích thử nghiệm (test), gọi là **testnet** (mạng thử nghiệm). Mạng này hoạt động tương tự (có thể nói là giống hệt) như mạng chính, nhưng các đồng BTC trên đó **không có giá trị thực**, chỉ dùng để kiểm thử hoặc học tập.
+
+Khi nói đến **testnet**, bạn sẽ thường nghe đến khái niệm **Faucet**.
+
+![Faucet](/assets/2025/10/14/faucet.png)
+
+Từ **“Faucet”** trong tiếng Việt nghĩa là “**vòi nước nhỏ giọt**”. Đây là một cách chơi chữ mang tính hình tượng, dùng để mô tả cơ chế “phát” một lượng nhỏ “tiền” — kiểu như “nhỏ giọt” — để người dùng **thử nghiệm và làm quen**.
+
+Trong bài này, tôi sử dụng **mạng testnet** để thực hiện giao dịch đầu tiên mang tính **demo**. Trên mạng **mainnet**, quy trình thực hiện **tương tự** gần như không có khác biệt gì.
