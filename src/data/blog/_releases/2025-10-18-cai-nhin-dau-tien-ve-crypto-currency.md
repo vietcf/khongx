@@ -46,14 +46,13 @@ Tuy nhiên, **Đời mà, được cái lọ thì mất cái chai** 😅. Mô h�
 
 ## Sổ cái phân tán (Distributed Ledger) và Cấu trúc Blockchain
 
-**Cơ sở dữ liệu** được đồng bộ giữa các node người ta hay gọi nó là 👉 **Distributed Ledger (Sổ cái phân tán)**.
+**Cơ sở dữ liệu** được đồng bộ giữa các node "này" người ta hay gọi nó là 👉 **Distributed Ledger (Sổ cái phân tán)**.
 
 > *Sẵn tiện giới thiệu: **Ledger (Sổ cái)** là một thuật ngữ bắt nguồn trong lĩnh vực kế toán, là cuốn sổ tổng hợp ghi lại mọi nghiệp vụ Nợ/Có. Về cơ bản, blockchain là một cuốn **Sổ cái điện tử** nhưng được phân tán khắp nơi.
 
-
 **Distributed Ledger** trong các hệ thống tiền mã hóa được tổ chức theo một cấu trúc đặc biệt, gọi là **Blockchain** (Chuỗi các khối dữ liệu (Blocks)) liên kết chặt chẽ với nhau.
 
-Cấu trúc này có các **đặc tính nổi bật** sau:
+Cấu trúc này có các **đặc tính nổi bật** sau để giải quyết các bài toán "đặc biệt":
 
 * **Tính bất biến (Immutability)**: Dữ liệu đã ghi vào một **Khối (block)** thì không thể bị sửa đổi hay xóa bỏ sau đó. Đây là chìa khóa của niềm tin.
 * **Đồng bộ tự động (Automatic Synchronization)**: Các bản sao luôn tự động cập nhật và đối chiếu nhau.
