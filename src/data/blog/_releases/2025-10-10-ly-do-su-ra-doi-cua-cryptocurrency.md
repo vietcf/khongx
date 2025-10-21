@@ -27,7 +27,7 @@ Trước khi bắt đầu tôi nghĩ vẫn cần tìm hiểu qua lý do tại sa
 
 Trong hệ thống thống tài chính hiện nay, việc giao dịch hàng ngày như thanh toán, chuyển khoản, phụ thuộc hoàn toàn vào việc tin cậy một bên thứ 3 cụ thể là ngân hàng, tổ chức thanh toán, và clearing house (Trung tâm bù trừ/Trung tâm thanh toán bù trừ. Tại VN có NAPAS, NHNN) để xác nhận và lưu trữ giao dịch.
 
-Việc đặt niềm tin hoàn toàn vào bên thứ 3 như hiện tại, một số **trường phái** phản biện rằng nó gặp nhiều vấn đề:
+Việc đặt niềm tin hoàn toàn vào bên thứ 3 như hiện tại, một số **trường phái** (Nhóm hay được gọi với cái tên cypherpunks - Dự án chống kiểm duyệt) phản biện rằng nó gặp nhiều vấn đề:
 
 * **Tính minh bạch (hay thiếu minh bạch):** Dữ liệu giao dịch nằm trong hệ thống của trung gian, hoàn toàn do trung gian chi phối về tính đứng đắn mà bạn không thể kiểm soát. Ví dụ: Nhân viên của trung gian/hacker xâm nhập có thể chỉnh sửa được dữ liệu trong hệ thống, hoặc ngân hàng có thể có lỗi kỹ thuật làm bạn mất tiền nhưng bạn lại không thể chứng minh được điều này. Có nhiều vụ người dùng trên mxh kêu rằng tiền trong TK không cánh mà bay, ngân hàng vẫn từ chối “không phải do tôi”, cũng chả rõ ai đúng ai sai.
 
