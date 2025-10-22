@@ -3,8 +3,8 @@ author: khongai
 ogImage: /public/assets/2025/10/09/crypto_intro.png
 pubDatetime: 2025-10-18T15:22:00Z
 modDatetime: 2025-10-18T16:52:45.934Z
-title: Cryptocurrency 101 - Phần 4, Cái nhìn "đầu tiên" về tiền điện tử mã hóa
-slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan03-nhung-cai-nhin-dau-tien-ve-tien-dien-tu-ma-hoa
+title: Cryptocurrency 101 - Phần 4, Cái nhìn "đầu tiên" về công nghệ xây dựng nên tiền điện tử mã hóa
+slug: tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan03-nhung-cai-nhin-dau-tien-ve-cong-nghe-tien-dien-tu-ma-hoa
 featured: false
 draft: false
 tags:
@@ -29,9 +29,11 @@ Mô hình này từ trước đến nay theo tôi vẫn hoạt động rất t�
 
 Với các đồng tiền điện tử mã hóa (Bitcoin, Ethereum,...) thì lại khác so với các hệ thống "truyền thống", chúng hoạt động dựa trên mô hình Phân tán (Peer-to-Peer viết tắt là P2P).
 
-Thay vì "đặt ở một chỗ" (tập trung), toàn bộ **Cơ sở dữ liệu (lịch sử giao dịch)** lại được nhân bản và phân tán ra khắp nơi trên Internet. Mỗi bên tham gia (Hay được gọi là peer/node) đều giữ một bản sao giống hệt nhau. Điều đặc biệt là các bên tham gia này nhiều khi không nhất thiết phải cùng một tổ chức bên ngoài đời thực, ai muốn join mạng cũng được miễn là tuân thủ "luật chơi" của mạng.
+Thay vì "đặt ở một chỗ" (tập trung), toàn bộ **Cơ sở dữ liệu** lại được nhân bản và phân tán ra khắp nơi trên Internet. Mỗi bên tham gia (Hay được gọi là peer/node) đều giữ một bản sao giống hệt nhau. Điều đặc biệt là các bên tham gia này nhiều khi không nhất thiết phải cùng một tổ chức bên ngoài đời thực, ai muốn join mạng cũng được miễn là tuân thủ "luật chơi" của mạng. 
 
 Các **Cơ sở dữ liệu** nằm phân tán này được đồng bộ hóa với nhau theo một "luật chơi" đặc biệt - Kỹ thuật gọi là **Cơ chế đồng thuận/Consensus Mechanism** để đảm bảo tính thống nhất.
+
+Khi có giao dịch mới, các node trong mạng sẽ đóng vai trò "cùng giám sát & kiểm tra" để đảm bảo tính hợp lệ. Sau khi đạt đồng thuận, mỗi node ghi giao dịch đó vào sổ cái phân tán của mình, đảm bảo tất cả các bản đều giống hệt nhau. Điều này khác với **Cơ sở dữ liệu** tập trung việc ghi không có bên nào giám sát mà do nhà cung cấp dịch vụ quyết định.
 
 Việc phân tán này giải quyết được kha khá vấn đề cốt lõi của hệ thống tập trung:
 
@@ -46,14 +48,19 @@ Tuy nhiên, **Đời mà, được cái lọ thì mất cái chai** 😅. Mô h�
 
 ## Sổ cái phân tán (Distributed Ledger) và Cấu trúc Blockchain
 
-**Cơ sở dữ liệu** được đồng bộ giữa các node "này" người ta hay gọi nó là 👉 **Distributed Ledger (Sổ cái phân tán)**.
+**Cơ sở dữ liệu** được đồng bộ giữa các node "này" trong mạng Cryptocurrency người ta hay gọi nó là 👉 **Distributed Ledger (Sổ cái phân tán)**. Từ giờ tôi sẽ dùng cụm từ **Distributed Ledger** để chỉ Cơ sở dữ liệu phân tán này.
 
 > *Sẵn tiện giới thiệu: **Ledger (Sổ cái)** là một thuật ngữ bắt nguồn trong lĩnh vực kế toán, là cuốn sổ tổng hợp ghi lại mọi nghiệp vụ Nợ/Có. Về cơ bản, blockchain là một cuốn **Sổ cái điện tử** nhưng được phân tán khắp nơi.
 
-**Distributed Ledger** trong các hệ thống tiền mã hóa được tổ chức theo một cấu trúc đặc biệt, gọi là **Blockchain** (Chuỗi các khối dữ liệu (Blocks)) liên kết chặt chẽ với nhau.
+**Distributed Ledger** trong các hệ thống tiền mã hóa được tổ chức theo một cấu trúc đặc biệt, gọi là **Blockchain** - Chuỗi các khối dữ liệu (Blocks) liên kết chặt chẽ với nhau.
 
 Cấu trúc này có các **đặc tính nổi bật** sau để giải quyết các bài toán "đặc biệt":
 
 * **Tính bất biến (Immutability)**: Dữ liệu đã ghi vào một **Khối (block)** thì không thể bị sửa đổi hay xóa bỏ sau đó. Đây là chìa khóa của niềm tin.
 * **Đồng bộ tự động (Automatic Synchronization)**: Các bản sao luôn tự động cập nhật và đối chiếu nhau.
 * **Cơ chế Đồng thuận (Consensus Mechanism)**: "Luật chơi" chung (ví dụ: Proof-of-Work, Proof-of-Stake) giúp tất cả các nút (node) thống nhất/verify được giao dịch nào là hợp lệ và khối nào là khối mới nhất.
+
+🎯 **Tóm lại:**
+
+> Blockchain là cách con người tạo ra “một cuốn sổ kế toán chung cho cả thế giới”,
+> nơi mọi người cùng ghi, cùng xác minh – và không cần tin ai để biết điều gì là thật.
