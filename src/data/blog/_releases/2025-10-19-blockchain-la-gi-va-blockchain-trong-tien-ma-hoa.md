@@ -27,7 +27,6 @@ Phần này sẽ mô tả về  Blockchain, chính là lớp kỹ thuật bên d
 
 Blockchain ~ Chain of Blocks. Hay tiếng Việt là **“Chuỗi (Chain) các khối (Block) dữ liệu"**.
 
-![chain of block](attachment\:d18597a8-3019-4a06-a1a2-99a31483551d\:Screenshot_from_2025-10-23_11-17-06.png)
 
 Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi bất biến (Immutability)** nghĩa đã ghi vào {Block} thì không thể sửa. Chain càng này càng dài ra, ta chỉ có thể thêm các {Block} vào cuối Chain.
 
@@ -37,7 +36,6 @@ Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi b�
 
 Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm (hash value)**.
 
-![hash value](attachment\:ad98cb74-2ec3-422c-8dfc-d702d5ddfeb4\:image.png)
 
 Nếu để so sánh với một thứ trong thực tế có thể hình dung Hàm băm giống như **“dấu vân tay” của dữ liệu** — là đại diện duy nhất, không thể trùng lặp. Hàm băm có một số tính chất sau:
 
@@ -74,13 +72,11 @@ Mã hóa (Encryption) là quá trình biến dữ liệu gốc (**plaintext**) t
 
 Khóa mã hóa và khóa giải mã **giống nhau**.
 
-![symetric encryption](attachment:923a7d8b-aacb-45a6-a02f-fc62b0797ac2\:Screenshot_from_2025-10-23_08-29-09.png)
 
 ### Mã hóa bất đối xứng (Asymmetric Cryptography)
 
 Khóa mã hóa và giải mã có thể **khác nhau hoàn toàn**.
 
-![Asymetric Encryption](attachment\:c6fdc664-75f1-4549-82a5-00f405abcb5e\:Screenshot_from_2025-10-23_08-30-32.png)
 
 
 Có thể thấy Asymetric sử dụng **một cặp khóa**:
@@ -100,13 +96,11 @@ Nếu mã hóa dùng để **giữ bí mật thông tin**, thì chữ ký số d
 * Dùng **Private Key để ký**
 * Dùng **Public Key để xác minh**
 
-![Sign Schema](attachment:20ce8ee7-bd62-4ffc-87a4-cf9a8b1655ef\:Screenshot_from_2025-10-23_09-02-11.png)
 
 🔁 Đây là “ứng dụng ngược” của cơ chế mã hóa bất đối xứng.
 
 Quá trình ký và xác minh minh họa chi tiết bằng hình dưới đây:
 
-![Sign Schema flows](attachment\:cc8fac9b-44eb-4147-857f-45fdcc93f411\:Screenshot_from_2025-10-23_09-03-36.png)
 
 
 # 🔗 Tiếp cận Blockchain từ cấu trúc đơn giản nhất
