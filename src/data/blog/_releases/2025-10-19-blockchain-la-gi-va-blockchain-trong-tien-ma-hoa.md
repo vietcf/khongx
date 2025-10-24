@@ -245,6 +245,10 @@ Thực tế việc tìm Nonce để hash Block thỏa mãn điều kiện là c�
 Nếu lấy ví dụ trong thực tế thì có thể ví việc **Đào Coin** như là việc làm thuê ghi sổ kế toán cho **Blockchain** vậy.
 
 
+## Tự cài đặt mạng Blockchain 
+
+Tôi cũng định viết một chương trình nhỏ mô tả một mạng Blockchain đơn giản, nhưng tìm một hồi thấy một người bạn của tôi đã làm hướng dẫn này trên Youtube bằng ngôn ngữ lập trình Python khá dễ hiểu. Tôi nghĩ tôi sẽ không dành thời gian để viết lại làm gì nữa :). Các bạn có thể xem ở đây [🔗 Code Blockchain đơn giản bằng Python](https://www.youtube.com/watch?v=gUzyi06lGO4)
+
 # 🔒 Tóm lại
 
 * `PreviousBlockHash` → đảm bảo **chuỗi liên kết chặt chẽ**.
