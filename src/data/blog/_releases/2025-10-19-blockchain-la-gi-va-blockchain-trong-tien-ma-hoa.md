@@ -34,9 +34,11 @@ Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi b�
 
 # 2. Một số khái niệm liên quan đến Blockchain trong khoa học máy tính
 
-## 2.1. Hàm băm (Hash)
+## 2.1. Hàm băm (Hash Function)
 
-Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) - **Plain text** và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm - Hash value**.
+Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) - **Plain Text** và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm - Hash Text**. 
+
+*Hash Text* từ đây gọi ngắn gọn là **hash**. Hàm toán học để thực hiện hash gọi là **Hash Function**
 
 ![Hash func](/assets/2025/10/19/1_hashfunc.png)
 
@@ -46,12 +48,12 @@ Nếu để so sánh với một thứ trong thực tế có thể hình dung H�
 
 | Tính chất                      | Ý nghĩa dễ hiểu                                                                                                                                           |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Một chiều (One-way)**        | Có thể tính Hash value từ dữ liệu Plain text, nhưng **không thể đảo ngược** nghĩa là từ Hash value gần như không tính toán để tìm lại dữ Plain text. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
-| **Đầu vào khác → đầu ra khác** | Chỉ cần thay đổi 1 ký tự đầu vào trong plain text, Hash value sẽ thay đổi hoàn toàn.                                                                                             |
-| **Đầu ra cố định độ dài**      | Dù dữ liệu 1 byte hay 1 GB, hash vẫn cho ra độ dài Hash value như nhau (VD: SHA-256 → 256 bit).                                                                      |
-| **Dễ tính toán, khó giả mạo**  | Dễ tính toán Hash value, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng Hash value.                                                                        |
+| **Một chiều (One-way)**        | Có thể tính hash từ dữ liệu Plain Text, nhưng **không thể đảo ngược** nghĩa là từ hash gần như không tính toán để tìm lại dữ Plain text. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
+| **Đầu vào khác → đầu ra khác** | Chỉ cần thay đổi 1 ký tự đầu vào trong Plain Text, hash sẽ thay đổi hoàn toàn.                                                                                             |
+| **Đầu ra cố định độ dài**      | Dù dữ liệu 1 byte hay 1 GB, hash vẫn cho ra độ dài hash như nhau (VD: SHA-256 → 256 bit).                                                                      |
+| **Dễ tính toán, khó giả mạo**  | Dễ tính toán hash, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng hash.                                                                        |
 
-> 🧩 **Tóm lại:** Hash value giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
+> 🧩 **Tóm lại:** hash giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
 
 
 ### Mã hóa (Encryption) và chữ ký số (Digital Signature)
@@ -113,7 +115,7 @@ Quá trình ký và xác minh minh họa chi tiết bằng hình dưới đây:
 
 ## 3.1. Tiếp cận Blockchain từ cấu trúc đơn giản nhất
 
-Ta vừa nói Blockchain được tạo từ các Block. Ta bắt đầu với một cấu trúc đơn giản **mỗi block** có một BlockID chỉ STT của block và có một trường `PreviousBlockHash` chứa **Hash value của block ngay trước đó** (`Hash(Block trước)`).
+Ta vừa nói Blockchain được tạo từ các Block. Ta bắt đầu với một cấu trúc đơn giản **mỗi block** có một BlockID chỉ STT của block và có một trường `PreviousBlockHash` chứa **hash của block ngay trước đó** (`Hash(Block trước)`).
 
 Với trường hợp đặc biệt là **block đầu tiên – Genesis Block** → không có khối trước, nên ta quy ước `PreviousBlockHash = 0x000...` - Một chuỗi toàn 0 (Thực tế với bitcoin là 64 số 0). Chuỗi này người ta hay gọi là Genesis Block (Khối khởi nguyên).
 
@@ -133,7 +135,7 @@ Ta có mô hình chuỗi này như sau:
 [Block #n PrevHash=Hash(Block n-1)]
 ```
 
-Từ cấu trúc này dễ dàng nhận thấy rằng nếu ai đó sửa dữ liệu trong bất kỳ block nào, do mỗi block lưu trữ Hash của block liền trước, nên khi dữ liệu thay đổi → Hash của block đó cũng thay đổi (theo tính chất của hàm băm). Hệ quả là toàn bộ các block phía sau sẽ trở nên không khớp, khiến chuỗi bị phá vỡ. Mạng blockchain sẽ phát hiện ngay sự bất thường này, vì mọi node trong mạng đều lưu bản sao giống hệt nhau của chuỗi khối (blockchain).
+Từ cấu trúc này dễ dàng nhận thấy rằng nếu ai đó sửa dữ liệu trong bất kỳ block nào, do mỗi block lưu trữ hash của block liền trước, nên khi dữ liệu thay đổi → hash của block đó cũng thay đổi (theo tính chất của hàm băm). Hệ quả là toàn bộ các block phía sau sẽ trở nên không khớp, khiến chuỗi bị phá vỡ. Mạng blockchain sẽ phát hiện ngay sự bất thường này, vì mọi node trong mạng đều lưu bản sao giống hệt nhau của chuỗi khối (blockchain).
 
 ###  Giả mã cho người technical
 
@@ -150,7 +152,7 @@ Block {
 
 ## 3.2. Nhưng… nếu chỉ dừng ở cấu trúc này thì chưa đủ
 
-Mô hình “chuỗi khối nối nhau bằng Hash” tuy giúp phát hiện chỉnh sửa, nhưng thực tế còn nhiều vấn đề:
+Mô hình “chuỗi khối nối nhau bằng hash” tuy giúp phát hiện chỉnh sửa, nhưng thực tế còn nhiều vấn đề:
 
 ### Spam (DoS) mạng & chỉnh sửa trái phép
 
@@ -180,17 +182,17 @@ Không có phần thưởng → không ai muốn duy trì mạng → hệ thốn
 Để khắc phục, người ta thêm vào mỗi block **một giá trị đặc biệt** gọi là `Nonce`
 (*Number used once – số chỉ dùng một lần*).
 
-Kèm điều kiện nào đó. Phổ biến nhất lấy mạng Blockchain làm ví dụ: Hash của block chỉ hợp lệ nếu bắt đầu bằng n ký tự `0` liên tiếp. (n là số nguyên dương).
+Kèm điều kiện nào đó. Phổ biến nhất lấy mạng Blockchain làm ví dụ: hash của block chỉ hợp lệ nếu bắt đầu bằng n ký tự `0` liên tiếp. (n là số nguyên dương).
 
-Như phần trên đã nói, hàm băm (Hash) là một hàm một chiều, tức là không thể dò ngược giá trị plaintext từ giá trị Hash value. Do đó, để tìm được một giá trị Hash Value thỏa điều kiện (ví dụ: bắt đầu bằng n=6 chữ số 0 liên tiếp), các Node bắt buộc chỉ còn cách thử đi thử lại hàng triệu lần. Cụ thể:
+Như phần trên đã nói, hàm băm (Hash Function) là một hàm một chiều, tức là không thể dò ngược giá trị plain text từ giá trị hash. Do đó, để tìm được một giá trị hash thỏa điều kiện (ví dụ: bắt đầu bằng n=6 chữ số 0 liên tiếp), các Node bắt buộc chỉ còn cách thử đi thử lại hàng triệu lần. Cụ thể:
 
-Các Node sẽ thay đổi giá trị Nonce (ví dụ: 1, 2, 3, 4, …, a, b, c, …) => Rồi tính lại Hash của block => Kiểm tra xem hash có đáp ứng điều kiện hay không.
+Các Node sẽ thay đổi giá trị Nonce (ví dụ: 1, 2, 3, 4, …, a, b, c, …) => Rồi tính lại hash của block => Kiểm tra xem hash có đáp ứng điều kiện hay không.
 
 Nếu chưa đạt, node lại tiếp tục thay Nonce khác và thử lại.... Quá trình này lặp đi lặp lại cho đến khi tìm được một Nonce hợp lệ.
 
 Với số lượng chữ số 0 yêu cầu càng nhiều (nghĩa là độ khó càng cao), thì việc tìm ra một hash hợp lệ càng mất thời gian và tốn tài nguyên hơn. Nhờ vậy, bằng việc tăng n mạng blockchain có thể điều chỉnh “độ khó” (difficulty) thông qua giá trị n để kiểm soát tốc độ sinh block.
 
-Việc  **thử thay Nonce hàng triệu lần Nonce** để tìm được Hash hợp lệ là Công việc này tiêu tốn tài nguyên (**CPU, điện, thời gian**) gọi là **Proof of Work (PoW)** - Tiếng việt gọi là bằng chứng công việc.
+Việc  **thử thay Nonce hàng triệu lần Nonce** để tìm được hash hợp lệ là Công việc này tiêu tốn tài nguyên (**CPU, điện, thời gian**) gọi là **Proof of Work (PoW)** - Tiếng việt gọi là bằng chứng công việc.
 
 Từ đó:
 
@@ -227,7 +229,7 @@ Block {
 
 Việc tìm giá trị Nonce tốn tài nguyên (CPU, điện năng, thời gian) => Khi node tính thành công Nonce => **được thưởng coin**. Trong Crypto thuật ngữ gọi việc đó là **“đào coin” (Coin mining)**.
 
-Thực tế việc tìm Nonce để Hash block thỏa mãn điều kiện là công việc với khối lượng tính toán lớn, các máy có thể **hợp tác đào** (pool mining) với nhau, sau đó chia phần thưởng theo công sức đóng góp.
+Thực tế việc tìm Nonce để hash Block thỏa mãn điều kiện là công việc với khối lượng tính toán lớn, các máy có thể **hợp tác đào** (pool mining) với nhau, sau đó chia phần thưởng theo công sức đóng góp.
 
 Nếu lấy ví dụ trong thực tế thì có thể ví việc **Đào Coin** như là việc làm thuê ghi sổ kế toán cho **Blockchain** vậy.
 
@@ -237,4 +239,4 @@ Nếu lấy ví dụ trong thực tế thì có thể ví việc **Đào Coin** 
 * `PreviousBlockHash` → đảm bảo **chuỗi liên kết chặt chẽ**.
 * `Nonce` + “bài toán hash” → tạo **chi phí thực, chống spam, thiết lập đồng thuận**.
 * `Timestamp` → xác định thời gian block được tạo.
-* `Đào coin` → là **hoạt động làm thuê ghi sổ kế toán cho mạ blockchain.
+* `Đào coin` → là **hoạt động đi tìm Nonce thỏa mã điều kiện ~ làm thuê ghi sổ kế toán cho mạ blockchain.
