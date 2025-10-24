@@ -27,6 +27,8 @@ Phần này sẽ mô tả về  Blockchain, chính là lớp kỹ thuật bên d
 
 Blockchain ~ Chain of Blocks. Hay tiếng Việt là **“Chuỗi (Chain) các khối (Block) dữ liệu"**.
 
+![Blockchain](/assets/2025/10/19/0_blockchain.png)
+
 
 Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi bất biến (Immutability)** nghĩa đã ghi vào {Block} thì không thể sửa. Chain càng này càng dài ra, ta chỉ có thể thêm các {Block} vào cuối Chain.
 
@@ -34,7 +36,9 @@ Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi b�
 
 ## 2.1. Hàm băm (Hash)
 
-Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm (hash value)**.
+Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) - **Plain text** và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm - Hash value**.
+
+![Hash func](/assets/2025/10/19/1_hashfunc.png)
 
 
 Nếu để so sánh với một thứ trong thực tế có thể hình dung Hàm băm giống như **“dấu vân tay” của dữ liệu** — là đại diện duy nhất, không thể trùng lặp. Hàm băm có một số tính chất sau:
@@ -42,17 +46,17 @@ Nếu để so sánh với một thứ trong thực tế có thể hình dung H�
 
 | Tính chất                      | Ý nghĩa dễ hiểu                                                                                                                                           |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Một chiều (One-way)**        | Có thể tính hash value từ dữ liệu plaintext, nhưng **không thể đảo ngược** nghĩa là từ hash value gần như không tính toán để tìm lại dữ liệu gốc. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
-| **Đầu vào khác → đầu ra khác** | Chỉ cần thay đổi 1 ký tự đầu vào, hash sẽ thay đổi hoàn toàn.                                                                                             |
-| **Đầu ra cố định độ dài**      | Dù dữ liệu 1 byte hay 1 GB, hash vẫn cho ra độ dài như nhau (VD: SHA-256 → 256 bit).                                                                      |
-| **Dễ tính toán, khó giả mạo**  | Dễ tính toán hash, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng hash.                                                                        |
+| **Một chiều (One-way)**        | Có thể tính Hash value từ dữ liệu Plain text, nhưng **không thể đảo ngược** nghĩa là từ Hash value gần như không tính toán để tìm lại dữ Plain text. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
+| **Đầu vào khác → đầu ra khác** | Chỉ cần thay đổi 1 ký tự đầu vào trong plain text, Hash value sẽ thay đổi hoàn toàn.                                                                                             |
+| **Đầu ra cố định độ dài**      | Dù dữ liệu 1 byte hay 1 GB, hash vẫn cho ra độ dài Hash value như nhau (VD: SHA-256 → 256 bit).                                                                      |
+| **Dễ tính toán, khó giả mạo**  | Dễ tính toán Hash value, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng Hash value.                                                                        |
 
-> 🧩 **Tóm lại:** Hash giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
+> 🧩 **Tóm lại:** Hash value giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
 
 
-## 2.2. Mã hóa (Encryption) và chữ ký số (Digital Signature)
+### Mã hóa (Encryption) và chữ ký số (Digital Signature)
 
-### 2.2.1. Mã hóa cơ bản
+### Mã hóa cơ bản
 
 Mã hóa (Encryption) là quá trình biến dữ liệu gốc (**plaintext**) thành dữ liệu mã hóa (**ciphertext**) để người khác **không thể đọc được nếu không có khóa giải mã (key)**.
 
@@ -68,15 +72,17 @@ Mã hóa (Encryption) là quá trình biến dữ liệu gốc (**plaintext**) t
 * **Mã hóa (Encryption)** là **2 chiều**, có thể giải ngược nếu có khóa.
 
 
-### 2.2.2. Mã hóa đối xứng (Symmetric Cryptography)
+### Mã hóa đối xứng (Symmetric Cryptography)
 
-Khóa mã hóa và khóa giải mã **giống nhau**.
+Trong **Symmetric Cryptography** mã hóa và khóa giải mã **giống nhau**.
 
+![Symetric encrypt](/assets/2025/10/19/2_symetric_encrypt.png)
 
-### 2.2.3. Mã hóa bất đối xứng (Asymmetric Cryptography)
+### Mã hóa bất đối xứng (Asymmetric Cryptography)
 
-Khóa mã hóa và giải mã có thể **khác nhau hoàn toàn**.
+Trong **Asymmetric Cryptography** khóa mã hóa và giải mã **khác nhau hoàn toàn**.
 
+![ASymetric encrypt](/assets/2025/10/19/3_async_metric.png)
 
 
 Có thể thấy Asymetric sử dụng **một cặp khóa**:
@@ -89,7 +95,7 @@ Mã hóa bằng Public Key -> chỉ Private Key tương ứng mới giải mã �
 
 > *Trong cuộc sống thực tế nếu khóa bằng ổ khóa thì chỉ có thể có các chìa khóa với cấu trúc giống hệt nhau với mở được. Nhưng trong khoa học máy tính thì hợi đặc biệt, người ta thiết kế ra loại ổ khóa mà có thể sử dụng 1 chìa để khóa nhưng lại có thể sử dụng một chìa khác để mở, với 2 chìa có cấu trúc khác nhau hoàn toàn, khoa học thật kỳ diệu phải không!**
 
-### 2.2.4. Chữ ký số (Digital Signature)
+### Chữ ký số (Digital Signature)
 
 Nếu mã hóa dùng để **giữ bí mật thông tin**, thì chữ ký số dùng để **xác minh ai tạo ra thông tin đó** và đảm bảo **dữ liệu không bị thay đổi sau khi ký** (*tính chống chối bỏ*).
 
@@ -226,7 +232,7 @@ Thực tế việc tìm Nonce để Hash block thỏa mãn điều kiện là c�
 Nếu lấy ví dụ trong thực tế thì có thể ví việc **Đào Coin** như là việc làm thuê ghi sổ kế toán cho **Blockchain** vậy.
 
 
-## 🔒 Tóm lại
+# 🔒 Tóm lại
 
 * `PreviousBlockHash` → đảm bảo **chuỗi liên kết chặt chẽ**.
 * `Nonce` + “bài toán hash” → tạo **chi phí thực, chống spam, thiết lập đồng thuận**.
