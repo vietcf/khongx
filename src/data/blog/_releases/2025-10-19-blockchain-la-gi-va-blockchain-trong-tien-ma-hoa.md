@@ -36,24 +36,24 @@ Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi b�
 
 ## 2.1. Hàm băm (Hash Function)
 
-Hàm băm là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) - **Plain Text** và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm - Hash Text**. 
+Hàm băm (Hash Function) là một **hàm toán học** nhận vào dữ liệu (bất kỳ kích thước nào) - **Plain Text** và trả về một chuỗi ký **cố định độ dài**, gọi là **giá trị băm - Hash Text**. 
 
-*Hash Text* từ đây gọi ngắn gọn là **hash**. Hàm toán học để thực hiện hash gọi là **Hash Function**
+*Để ngắn gọn từ đây Hash Text gọi là **hash**. Hàm toán học để thực hiện việc hash gọi là **Hash Function***
 
 ![Hash func](/assets/2025/10/19/1_hashfunc.png)
 
 
-Nếu để so sánh với một thứ trong thực tế có thể hình dung Hàm băm giống như **“dấu vân tay” của dữ liệu** — là đại diện duy nhất, không thể trùng lặp. Hàm băm có một số tính chất sau:
+Nếu để so sánh với một thứ trong thực tế, có thể hình dung **hash** giống như **“dấu vân tay” của dữ liệu** — là đại diện duy nhất, không thể trùng lặp. Hàm băm có một số tính chất sau:
 
 
 | Tính chất                      | Ý nghĩa dễ hiểu                                                                                                                                           |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Một chiều (One-way)**        | Có thể tính hash từ dữ liệu Plain Text, nhưng **không thể đảo ngược** nghĩa là từ hash gần như không tính toán để tìm lại dữ Plain text. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
+| **Một chiều (One-way)**        | Có thể tính hash từ dữ liệu Plain Text. Nhưng **không thể đảo ngược**, nghĩa là nếu ta có hash thì gần như không thể có cách tính toán nào để tìm lại dữ liệu Plain text ban đầu. Giống như nghiền trái cây thành sinh tố – không thể “lấy lại quả táo”. |
 | **Đầu vào khác → đầu ra khác** | Chỉ cần thay đổi 1 ký tự đầu vào trong Plain Text, hash sẽ thay đổi hoàn toàn.                                                                                             |
 | **Đầu ra cố định độ dài**      | Dù dữ liệu 1 byte hay 1 GB, hash vẫn cho ra độ dài hash như nhau (VD: SHA-256 → 256 bit).                                                                      |
-| **Dễ tính toán, khó giả mạo**  | Dễ tính toán hash, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng hash.                                                                        |
+| **Dễ tính toán, khó giả mạo**  | Về mặt tính toán hash dữ liệu cần rất ít "tài nguyên" và thời gian tính rất nhanh, nhưng gần như không thể tìm hai dữ liệu khác nhau có cùng hash.                                                                        |
 
-> 🧩 **Tóm lại:** hash giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
+> **Tóm lại:** hash giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
 
 
 ### Mã hóa (Encryption) và chữ ký số (Digital Signature)
@@ -67,6 +67,8 @@ Mã hóa (Encryption) là quá trình biến dữ liệu gốc (**plaintext**) t
 
 * Quá trình chuyển **plaintext → ciphertext** gọi là **mã hóa (encryption)**
 * Quá trình chuyển **ciphertext → plaintext** gọi là **giải mã (decryption)**
+
+Mã hóa vừa đảm bảo tính "bí mật" của thông tin lại vừa đảm bảo tính "toàn vẹn" (Không bị sửa đổi của thông tin). 
 
 ⚠️ **Mã hóa (Encryption) khác với băm (Hash):**
 
@@ -87,10 +89,13 @@ Trong **Asymmetric Cryptography** khóa mã hóa và giải mã **khác nhau ho�
 ![ASymetric encrypt](/assets/2025/10/19/3_async_metric.png)
 
 
+*Lúc này quá trình mã hóa dữ liệu sẽ là mã hóa bằng Private Key và giải mã bằng Public Key. Với Private Key khác hoàn toàn với Public Key, biết được Public key không tính toán được Private Key*
+
 Có thể thấy Asymetric sử dụng **một cặp khóa**:
 
 * **Khóa công khai (Public Key)** – có thể chia sẻ cho mọi người.
 * **Khóa riêng (Private Key)** – chỉ chủ sở hữu giữ.
+
 
 Mã hóa bằng Public Key -> chỉ Private Key tương ứng mới giải mã được, và ngược lại Mã hóa bằng Private Key -> chỉ Public Key tương ứng mới giải mã được.
 
@@ -101,23 +106,27 @@ Mã hóa bằng Public Key -> chỉ Private Key tương ứng mới giải mã �
 
 Nếu mã hóa dùng để **giữ bí mật thông tin**, thì chữ ký số dùng để **xác minh ai tạo ra thông tin đó** và đảm bảo **dữ liệu không bị thay đổi sau khi ký** (*tính chống chối bỏ*).
 
+Chữ ký số là “ứng dụng ngược” của cơ chế mã hóa bất đối xứng **Asymmetric Cryptography**
+
 * Dùng **Private Key để ký**
 * Dùng **Public Key để xác minh**
-
-
-🔁 Đây là “ứng dụng ngược” của cơ chế mã hóa bất đối xứng.
 
 Quá trình ký và xác minh minh họa chi tiết bằng hình dưới đây:
 
 ![Singning](/assets/2025/10/19/5_digital_sign.png)
 
+
+So vớ mã hóa đối xứng và hash thì mã hóa bất đối xứng xử lý rất tốn thời gian hơn rất nhiều. Do vậy trong thực tế khi ký một văn bản/tài liệu bằng chữ ký số người ta hay ký lên hash thay vì ký trên văn bản gốc để tiết kiệm tài nguyên (CPU và thời gian). Lúc này lược đồ Ký số chi tiết sẽ là.
+
+![Singning Diagram](/assets/2025/10/19/6_sign_diagram.png)
+
 # 3. Khám phá cấu trúc Blockchain
 
 ## 3.1. Tiếp cận Blockchain từ cấu trúc đơn giản nhất
 
-Ta vừa nói Blockchain được tạo từ các Block. Ta bắt đầu với một cấu trúc đơn giản **mỗi block** có một BlockID chỉ STT của block và có một trường `PreviousBlockHash` chứa **hash của block ngay trước đó** (`Hash(Block trước)`).
+Ta vừa nói Blockchain được tạo từ các Block. Hãy bắt đầu với một cấu trúc đơn giản **mỗi block** có một BlockID chỉ STT của block, một trường `PreviousBlockHash` chứa **hash của block ngay trước đó** (`Hash(Block trước)`) và Data là dữ liệu chứa trong Block - Tất nhiên rồi phải có dữ liệu vì Blockchain để lưu dữ liệu (Với trường hợp của BTC đó là thông tin giao dịch)
 
-Với trường hợp đặc biệt là **block đầu tiên – Genesis Block** → không có khối trước, nên ta quy ước `PreviousBlockHash = 0x000...` - Một chuỗi toàn 0 (Thực tế với bitcoin là 64 số 0). Chuỗi này người ta hay gọi là Genesis Block (Khối khởi nguyên).
+Ta sẽ nghĩ ngay tới trường hợp đặc biệt, **Block đầu tiên**. Do không có khối trước, nên ta quy ước `PreviousBlockHash = 0x000...` - Một chuỗi toàn 0 (Thực tế với BTC là 64 số 0). Block đầu tiên này người ta hay gọi là Genesis Block (Nghĩa tiếng việt là Khối khởi nguyên).
 
 Ta có mô hình chuỗi này như sau:
 
@@ -134,6 +143,8 @@ Ta có mô hình chuỗi này như sau:
    ↓
 [Block #n PrevHash=Hash(Block n-1)]
 ```
+![Blockhain Simple](/assets/2025/10/19/7_blockchain.jpg)
+
 
 Từ cấu trúc này dễ dàng nhận thấy rằng nếu ai đó sửa dữ liệu trong bất kỳ block nào, do mỗi block lưu trữ hash của block liền trước, nên khi dữ liệu thay đổi → hash của block đó cũng thay đổi (theo tính chất của hàm băm). Hệ quả là toàn bộ các block phía sau sẽ trở nên không khớp, khiến chuỗi bị phá vỡ. Mạng blockchain sẽ phát hiện ngay sự bất thường này, vì mọi node trong mạng đều lưu bản sao giống hệt nhau của chuỗi khối (blockchain).
 
