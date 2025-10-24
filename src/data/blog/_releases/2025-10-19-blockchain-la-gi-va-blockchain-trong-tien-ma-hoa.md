@@ -107,7 +107,7 @@ Nếu mã hóa dùng để **giữ bí mật thông tin**, thì chữ ký số d
 
 Quá trình ký và xác minh minh họa chi tiết bằng hình dưới đây:
 
-
+![Singning](/assets/2025/10/19/5_digital_sign.png)
 
 # 3. Khám phá cấu trúc Blockchain
 
