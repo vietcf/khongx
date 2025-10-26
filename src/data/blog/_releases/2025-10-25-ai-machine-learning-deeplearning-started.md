@@ -135,7 +135,7 @@ Tham khảo bài viết chi tiết từ Datacamp:
 
 💡 Ví dụ: Nhận diện hình ảnh khi **chỉ một phần nhỏ dữ liệu được gắn nhãn**
 
-### 🔹 4. Học tăng cường (Reinforcement Learning)
+### 🔹4. Học tăng cường (Reinforcement Learning)
 
 Máy tính (gọi là **agent**) học bằng cách **tương tác với môi trường** – giống như con người học từ kinh nghiệm thực tế.
 
