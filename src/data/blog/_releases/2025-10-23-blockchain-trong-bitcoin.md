@@ -35,7 +35,7 @@ Thực tế, một Transaction trong Bitcoin sẽ bao gồm **các inputs** và 
 🔹 **Tổng giá trị input luôn lớn hơn hoặc bằng tổng giá trị output.**
 Phần chênh lệch (input − output) = **phí giao dịch (transaction fee)**, được trả cho **thợ đào (miner)**.
 
-![transaction-diagram](/public/assets/2025/10/09/image.png)
+![transaction-diagram](/public/assets/2025/10/09/crypto_intro.png)
 
 
 ## 🧠 [Góc kỹ thuật]
@@ -141,10 +141,10 @@ Ví của bạn thực chất là **danh sách các UTXO mà private key của b
 
 * Trường hợp 1: Tìm được UTXO đủ lớn để thanh toán.
   (Số dư đủ → có thể còn “tiền thừa”)
-  ![image.png](/public/assets/2025/10/09/image.png)
+  ![image.png](/public/assets/2025/10/09/crypto_intro.png)
 
 * Trường hợp 2: Gom nhiều UTXO nhỏ để đủ tổng tiền.
-  ![lower.png](/public/assets/2025/10/09/lower.png)
+  ![lower.png](/public/assets/2025/10/09/crypto_intro.png)
 
 # 🔗 Transaction Chain
 
@@ -152,7 +152,7 @@ Các transaction có thể **nối với nhau**:
 đầu ra của transaction trước (UTXO) → trở thành đầu vào của transaction sau.
 Sau khi một transaction thực hiện, **các UTXO cũ bị tiêu**, và **UTXO mới được sinh ra**.
 
-![image1.png](/public/assets/2025/10/09/image.png)
+![image1.png](/public/assets/2025/10/09/crypto_intro.png)
 
 
 ## ✅ Chứng minh quyền sở hữu UTXO
@@ -201,7 +201,7 @@ Mỗi input được ký bằng private key tương ứng.
 4️⃣ **Phát tán giao dịch (Broadcast)**
 Giao dịch được gửi lên mạng P2P → các node kiểm tra và lan truyền (gossip).
 
-![image3.png](/public/assets/2025/10/09/image.png)
+![image3.png](/public/assets/2025/10/09/crypto_intro.png)
 
 5️⃣ **Được đưa vào block (Mining)**
 Miner chọn giao dịch hợp lệ, thêm vào block, giải thuật toán PoW.
