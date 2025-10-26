@@ -202,7 +202,7 @@ Cặp này kết hợp lại cho phép ví tạo ra một **cây khóa (Key Tree
 | **xprv** | Extended Private Key | Có thể sinh ra *private key con* và *public key con*. Dùng để ký và chi tiêu Bitcoin. |
 | **xpub** | Extended Public Key  | Chỉ sinh được *public key con* → dùng để tạo địa chỉ nhận tiền. Không thể chi tiêu.   |
 
-### Cấu trúc minh họa
+**Cấu trúc minh họa**
 
 ```text
 Mnemonic Seed (12 words)
@@ -242,7 +242,8 @@ Master (xprv/xpub)
 
 >     ↳ Cuối cùng tạo **Bitcoin Address con**
 
-✅ **Tóm lại:**
+
+# ✅Tóm lại
 
 * Private Key là chìa khóa bí mật chứng minh quyền sở hữu và cho phép chi tiêu cryptocurrency.
 
