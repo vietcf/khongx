@@ -1,35 +1,34 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/09/crypto_intro.png
+ogImage: /public/assets/2025/10/25/0_ai_intro.png
 pubDatetime: 2025-10-25T15:22:00Z
 modDatetime: 2025-10-25T16:52:45.934Z
-title: AI 101 - Phần 1, Một số thuật ngữ cho người mới bắt đầu tìm hiểu về AI, ML, DL
-slug: ai-101-mot-so-thuat-ngu-cho-nguoi-moi-bat-dau-tim-hieu-ve-ai-ml-dl
+title: AI 101 - Phần 1, Một số thuật ngữ cho người mới bắt đầu tìm hiểu về Trí tuệ nhân tạo, Học máy, Học sâu
+slug: ai-101-mot-so-thuat-ngu-cho-nguoi-moi-bat-dau-tim-hieu-ve-tri-tue-nhan-tao-hoc-may-hoc-sau
 featured: false
 draft: false
 tags:
   - AI
 description:
-  Bài viết này chúng ta sẽ cùng bắt đầu những thuật ngữ đầu tiên về AI, ML, DL.
+  Bài viết này chúng ta sẽ cùng nhau làm quen với những thuật ngữ đầu tiên về Trí tuệ nhân tạo (Artificial Intelligent ~ AI), Học máy (Machine Learning ~ ML), Học sâu (Deep learning ~ DL).
 ---
 
-# 🧠 Một số thuật ngữ liên quan tới lĩnh vực Trí tuệ nhân tạo (Artificial Intelligence)
+>Gần đây vì lý do công việc tôi phải tìm hiểu về AI/ML/DL - dĩ nhiên chỉ ở mức cần hiểu nôm na nó là cái gì. Tiện thể trong quá trình đọc thì note lại đây có thể là một số bài. Dĩ nhiên cũng như những loạt bài trước, loạt bài về AI, ML, DL của tôi cũng sẽ theo hướng tiếp cận "Mì ăn liền", ăn vội cách tham lam của "người đi làm". 
 
-# **1. Trí tuệ nhân tạo (Artificial Intelligence – AI) là gì?**
+
+# 1. Trí tuệ nhân tạo (Artificial Intelligence – AI) là gì?
 
 Không có định nghĩa tuyệt đối chính xác, nhưng có thể hiểu:
 
-> **Trí tuệ nhân tạo (AI)** là khả năng của máy móc hoặc hệ thống máy tính trong việc **thực hiện các nhiệm vụ vốn đòi hỏi trí tuệ con người** — như suy luận, học hỏi, hiểu ngôn ngữ, giải quyết vấn đề, ra quyết định hoặc sáng tạo.
-
-💡 *Tóm lại: Trí tuệ nhân tạo giúp máy tính có thể “hành xử” giống con người — biết suy luận, học hỏi, hiểu ngôn ngữ, ra quyết định và sáng tạo.*
+> **Trí tuệ nhân tạo (Artificial Intelligence ~ AI)**: Là lĩnh vực trong khoa học máy tính, mục tiêu của nó là giúp máy tính có thể “hành xử” giống con người — biết suy luận, học hỏi, hiểu ngôn ngữ, ra quyết định và sáng tạo.
 
 **Ví dụ:**
 
-* Trợ lý ảo như **Siri, Alexa, ChatGPT** → hiểu và phản hồi ngôn ngữ tự nhiên.
-* **Xe tự lái** → nhận diện vật thể, dự đoán tình huống và ra quyết định di chuyển.
+* Trợ lý ảo như **Siri, Alexa, ChatGPT** → **Hiểu** và **phản hồi** ngôn ngữ tự nhiên.
+* **Xe tự lái** → Nhận diện vật thể, dự đoán tình huống và **ra quyết định** di chuyển.
 
 
-# **2. Học máy (Machine Learning – ML) là gì?**
+# 2. Học máy (Machine Learning – ML) là gì?
 
 Sự phát triển lớn tiếp theo của AI chính là **Học máy (Machine Learning – ML)**.
 
@@ -44,7 +43,7 @@ Tham khảo bài viết chi tiết từ Datacamp:
 🔗 [https://www.datacamp.com/blog/machine-learning-lifecycle-explained](https://www.datacamp.com/blog/machine-learning-lifecycle-explained)
 
 
-# **3. Thuật toán học máy (Machine Learning Algorithm), Training, Model và Deployment**
+# 3. Thuật toán học máy (Machine Learning Algorithm), Training, Model và Deployment
 
 ### 🧮 **Thuật toán học máy (Machine Learning Algorithm)**
 
@@ -102,7 +101,7 @@ Sau khi huấn luyện, mô hình học được đặc điểm của từng lo�
 🎯 Mục tiêu: Dùng **ít dữ liệu có nhãn** để hướng dẫn mô hình học phần còn lại
 💡 Ví dụ: Nhận diện hình ảnh khi **chỉ một phần nhỏ dữ liệu được gắn nhãn**
 
-### 🔹 4. **Học tăng cường (Reinforcement Learning)**
+### 🔹 4. Học tăng cường (Reinforcement Learning)
 
 Máy tính (gọi là **agent**) học bằng cách **tương tác với môi trường** – giống như con người học từ kinh nghiệm thực tế.
 
@@ -115,7 +114,7 @@ Qua nhiều lần thử – sai (trial and error), agent học được **chiế
 💡 Ví dụ: **Robot tự di chuyển**, **AI chơi game**, **xe tự lái**
 
 
-# **4. Mạng nơ-ron (Neural Networks) và Học sâu (Deep Learning – DL)**
+# 4. Mạng nơ-ron (Neural Networks) và Học sâu (Deep Learning – DL)
 
 Nếu bạn còn nhớ, mục tiêu chính của AI là giúp máy “hành xử” giống con người.
 Một trong những phương pháp cốt lõi để đạt điều đó là **mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN).**
@@ -151,7 +150,7 @@ Nếu mạng có **trên 3 lớp ẩn**, ta gọi đó là **Deep Learning (Họ
 
 
 
-# **5. So sánh Machine Learning (ML) và Deep Learning (DL)**
+# 5. So sánh Machine Learning (ML) và Deep Learning (DL)
 
 
 | Đặc điểm        | Machine Learning (ML)                     | Deep Learning (DL)                               |
