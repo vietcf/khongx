@@ -188,24 +188,19 @@ Cặp này kết hợp lại cho phép ví tạo ra một **cây khóa (Key Tree
 
 “Cây khóa HD” (HD Key Tree) là **cấu trúc phân cấp** nơi từ một khóa gốc có thể sinh ra vô số khóa con từ **Master Key** và **Chain Code.**
 
-* Mỗi “nhánh” của cây đại diện cho một **tài khoản, ví phụ hoặc mục đích cụ thể**.
-  Ví dụ:
+  * Mỗi “nhánh” của cây đại diện cho một **tài khoản, ví phụ hoặc mục đích cụ thể**. Ví dụ:
 
-  * Một nhánh cho địa chỉ nhận tiền
-  * Một nhánh cho tiền thừa (change)
-  * Các nhánh khác cho tài khoản phụ
-  * …
+    * Một nhánh cho địa chỉ nhận tiền
+    * Một nhánh cho tiền thừa (change)
+    * Các nhánh khác cho tài khoản phụ
+    * …
 
-Trong mỗi nhánh, ví sinh ra **các khóa mở rộng (Extended Keys):**
+  * Trong mỗi nhánh, ví sinh ra **các khóa mở rộng (Extended Keys):**
 
 | Loại     | Mô tả                | Chức năng                                                                             |
 | -------- | -------------------- | ------------------------------------------------------------------------------------- |
 | **xprv** | Extended Private Key | Có thể sinh ra *private key con* và *public key con*. Dùng để ký và chi tiêu Bitcoin. |
 | **xpub** | Extended Public Key  | Chỉ sinh được *public key con* → dùng để tạo địa chỉ nhận tiền. Không thể chi tiêu.   |
-
-> 🧠 Đây là cơ chế giúp phân tách an toàn giữa ví nhận tiền (**xpub**) và ví chi tiêu (**xprv**).
-> Ví dụ: cửa hàng có thể đặt **xpub** trên server để tạo địa chỉ mới cho mỗi đơn hàng,
-> còn **xprv** được giữ offline để ký giao dịch khi rút tiền.
 
 ### Cấu trúc minh họa
 
@@ -240,14 +235,27 @@ Master (xprv/xpub)
 > → sinh **Seed**
 > → tạo **Master Private Key + Chain Code**
 > → sinh **HD Tree**
+
 >     ↳ Mỗi nhánh chứa **xprv / xpub**
+
 >     ↳ Mỗi xprv/xpub sinh **Private & Public Keys con**
+
 >     ↳ Cuối cùng tạo **Bitcoin Address con**
 
 ✅ **Tóm lại:**
 
-> Ví Bitcoin không giữ Bitcoin,
-> mà giữ **Private Keys** – chìa khóa mở “két sắt” của bạn trên blockchain.
-> Mất khóa = mất tiền.
-> Giữ seed = giữ toàn bộ tài sản.
+* Private Key là chìa khóa bí mật chứng minh quyền sở hữu và cho phép chi tiêu cryptocurrency.
+
+* Public Key được tạo ra từ Private Key theo chiều một chiều, dùng để xác minh chữ ký và nhận tiền.
+
+* Wallet Address là phiên bản băm của Public Key, dùng như “số tài khoản” để nhận coin.
+
+* Wallet chỉ lưu và quản lý cặp khóa, chứ không chứa tiền – tiền thật nằm trên blockchain.
+
+* HD Wallet dùng một “Seed” duy nhất (từ cụm Mnemonic 12–24 từ) để sinh ra vô số khóa con (Tương ứng với vô số public key và địa chỉ ví), giúp dễ backup và quản lý.
+
+> Quan trọng ⚠️
+>
+> Đảm bảo an toàn tuyệt đối cho Private Key hoặc Seed pharses/Mnemonic 12-24 từ.
+
 
