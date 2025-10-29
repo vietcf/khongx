@@ -160,19 +160,23 @@ Qua nhiều lần thử – sai (trial and error), agent học được **chiế
 
 # 4. Mạng nơ-ron (Neural Networks) và Học sâu (Deep Learning – DL)
 
-Nếu bạn còn nhớ, ở đầu ta có nói mục tiêu chính của AI là giúp máy “hành xử” giống con người. Thì một trong những phương pháp cốt lõi để đạt điều đó là **mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN).**
+## Mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN)
 
-## 🧠 Liên hệ với não người
+Nếu bạn còn nhớ, ở đầu ta có nói mục tiêu chính của AI là giúp máy “hành xử” giống con người. Thì một trong những phương pháp **cốt lõi** để đạt điều đó là **mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN).**
+(Tại sao nói là cốt lõi tôi sẽ giải thích bên dưới)
+
+### 🧠 Liên hệ với não người
 
 **Não người** hoạt động nhờ hàng tỷ **tế bào thần kinh (neurons)** được kết nối với nhau.
 Mỗi neuron **truyền tín hiệu điện – hóa học** qua **khớp thần kinh (synapses)** – những “cầu nối” cho thông tin.
 
+![synpaps](/assets/2025/10/25/07_synaps.png)
+
 Khi con người **học hoặc trải nghiệm điều mới**, não sẽ **điều chỉnh độ mạnh của các kết nối** này → hình thành **mẫu (pattern)** giúp ghi nhớ và phản ứng tốt hơn.
 
-👉 Cơ chế này được **mạng nơ-ron nhân tạo mô phỏng lại** trong máy tính.
+Cơ chế này được mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN) mô phỏng lại trong máy tính, và chính điều đó là điểm “cốt lõi” giúp ANN cho phép máy tính thực hiện những việc tương tự như não con người.
 
-
-## 💡 Cấu trúc mạng nơ-ron nhân tạo
+### 💡 Cấu trúc mạng nơ-ron nhân tạo (ANN)
 
 Một mạng nơ-ron cơ bản gồm 3 phần:
 
@@ -182,8 +186,11 @@ Một mạng nơ-ron cơ bản gồm 3 phần:
   → Mỗi kết nối có **trọng số (weight)** thể hiện mức độ quan trọng
 * **Output Layer (Lớp đầu ra):** đưa ra kết quả dự đoán cuối cùng
 
+![ann](/assets/2025/10/25/08_ann.png)
 
-## 🔢 Ví dụ: Nhận diện chữ số viết tay (0–9)
+Ở đây nếu bạn chưa hiểu cũng không sao, tôi sẽ có một bài nói về ANN chi tiết hơn ở sau.
+
+### 🔢 Ví dụ: Nhận diện chữ số viết tay (0–9)
 
 * Các lớp đầu phát hiện **đường nét, góc cạnh, đường cong**
 
@@ -191,7 +198,11 @@ Một mạng nơ-ron cơ bản gồm 3 phần:
 
 * Lớp đầu ra gồm **10 nút (0–9)** → chọn số có **xác suất cao nhất**
 
-Nếu mạng có **trên 3 lớp ẩn**, ta gọi đó là **Deep Learning (Học sâu).**
+### Deep Learning
+
+Nếu Mạng Neron (Artificial Neural Networks – ANN) có **trên 3 lớp ẩn**, ta gọi đó là **Deep Learning (Học sâu)**
+
+![ann](/assets/2025/10/25/08_deeplearning.jpg)
 
 # 5. So sánh Machine Learning (ML) và Deep Learning (DL)
 
