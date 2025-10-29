@@ -110,7 +110,10 @@ Bạn có 1000 ảnh mèo 🐱 và chó 🐶 → gán nhãn từng ảnh là “
 
 Machine Learning Lifecycle: là **chuỗi các bước có cấu trúc** giúp phát triển, triển khai và tối ưu mô hình học máy một cách hiệu quả và bền vững.
 
+![AI Lifecycle](/assets/2025/10/25/05_ai_lifecycle.png)
+
 Tham khảo bài viết chi tiết từ Datacamp:
+
 🔗 [https://www.datacamp.com/blog/machine-learning-lifecycle-explained](https://www.datacamp.com/blog/machine-learning-lifecycle-explained)
 
 ## 🔢 Phân loại thuật toán học máy (Machine Learning Algorithms)
@@ -150,6 +153,8 @@ Máy tính (gọi là **agent**) học bằng cách **tương tác với môi tr
 Qua nhiều lần thử – sai (trial and error), agent học được **chiến lược tối ưu (optimal policy)** để **tối đa hóa phần thưởng**.
 
 🎯 Mục tiêu: **Tối ưu hành động** dựa trên cơ chế **thưởng – phạt**
+
+![Reinforce](/assets/2025/10/25/06_reinforce.png)
 
 💡 Ví dụ: **Robot tự di chuyển**, **AI chơi game**, **xe tự lái**
 
