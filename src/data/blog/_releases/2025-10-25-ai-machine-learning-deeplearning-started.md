@@ -13,7 +13,7 @@ description:
   Bài viết này chúng ta sẽ cùng nhau làm quen với những thuật ngữ đầu tiên về Trí tuệ nhân tạo (Artificial Intelligent ~ AI), Học máy (Machine Learning ~ ML), Học sâu (Deep learning ~ DL).
 ---
 
->Gần đây vì lý do công việc tôi phải tìm hiểu về AI, ML, DL - dĩ nhiên chỉ ở mức cần hiểu nôm na "Nó là cái gì". Trong quá trình đọc, tôi có ghi chú lại vài điều, biết đâu sẽ thành một chuỗi bài nho nhỏ. Giống như những loạt bài trước, loạt bài về AI, ML, DL của tôi cũng mang phong cách "Mì ăn liền", nhanh gọn & thực dụng của "người đi làm".
+>Gần đây vì lý do công việc tôi phải tìm hiểu về AI, ML, DL - dĩ nhiên chỉ ở mức cần hiểu nôm na **Nó là cái gì**. Trong quá trình đọc, tôi có ghi chú lại vài điều, biết đâu sẽ thành một chuỗi bài nho nhỏ. Giống như những loạt bài trước, loạt bài về AI, ML, DL của tôi cũng mang phong cách **Mì ăn liền**, nhanh gọn & thực dụng của **người đi làm**
 
 ## Table of contents
 
@@ -29,6 +29,11 @@ Không có định nghĩa tuyệt đối chính xác, nhưng tôi có đọc qua
 * **Xe tự lái** → **Nhận diện** vật thể, dự đoán tình huống và **ra quyết định** di chuyển.
 
 => Các hoạt động này trước nay ta chỉ thấy ở con người, nhưng hiện nay "máy tính" cũng đã có khả năng thực hiện là nhờ Artificial Intelligence - AI.
+
+AI, ML, DL (tôi sẽ nói sau) có mối quan hệ mật thiết mô tả ngắn gọn bằng hình sau:
+
+![AI ML DL](/assets/2025/10/19/02_ai_intro.png)
+
 
 # 2. Học máy (Machine Learning – ML) là gì?
 
