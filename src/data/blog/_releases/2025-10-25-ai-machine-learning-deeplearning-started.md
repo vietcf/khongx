@@ -32,7 +32,7 @@ Không có định nghĩa tuyệt đối chính xác, nhưng tôi có đọc qua
 
 AI, ML, DL (tôi sẽ nói sau) có mối quan hệ mật thiết mô tả ngắn gọn bằng hình sau:
 
-![AI ML DL](/assets/2025/10/25/02_ai_intro.png)
+![AI ML DL](/assets/2025/10/25/03_ai_overview.png)
 
 
 # 2. Học máy (Machine Learning – ML) là gì?
