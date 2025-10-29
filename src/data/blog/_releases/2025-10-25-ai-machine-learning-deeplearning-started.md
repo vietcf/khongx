@@ -60,7 +60,7 @@ Tương tự thuật toán học máy Là tập hợp các **bước hoặc quy 
 >Nói tới toán là đau đầu :) nói thật lập trình viên 100 ông thì 99 ông sợ toán :) 1 ông còn lại làm nghiên cứu chắc thích toán. Có lẽ vậy mà trước giờ nói tới AI, ML, DL khá ngại vì "nghe nói" nó toàn toán.
 >Vài thuật toán mà ông nào học lập trình cũng học như tìm kiếm, sắp xếp, ... thực tế chúng cũng đơn giản chủ yếu là lặp lại một số bước. Qua trọng là hiểu ý tưởng là code được. Thuật toán ML tôi nghĩ cũng vậy hiểu là viết được, chắc phức tạp hơn chút thôi. Mà giờ có lib hết rồi khéo chả cần code hiểu ý tưởng để truyền & điều chỉnh params cho phù hợp.
 
-=> 💡Tóm lại nó chỉ là các bước hoặc quy tắc toán học giúp máy tính "tự học" từ dữ liệu và "rút ra quy luật".
+=> 💡Tóm lại: ML Algorithm nó chỉ là các bước hoặc quy tắc toán học giúp máy tính "tự học" từ dữ liệu và "rút ra quy luật".
 
 ## 🧩 Mô hình học máy (Machine Learning Model)
 
@@ -80,11 +80,11 @@ Diện tích (m²), Số phòng ngủ, Vị trí, Năm xây dựng, v.v.
 Giả sử mỗi yếu tố là một biến, và mỗi biến có một “trọng số” (weight) nhất định ảnh hưởng đến giá.
 Ở giai đoạn này, các trọng số chưa có giá trị cụ thể — máy sẽ tự học ra chúng trong quá trình huấn luyện (Training).
 
-🔹 Mô hình (Model): Sau khi huấn luyện, tức là đưa dữ liệu vào cho thuật toán học, ta thu được một mô hình trong đó các trọng số đã được xác định thành con số cụ thể.
-
-Nói đơn giản, mô hình chính là “phiên bản đã học xong” của thuật toán.
+🔹 Mô hình (Model): Trong quá trình huấn luyện (Training), tức là đưa dữ liệu vào cho thuật toán học, ta thu được một mô hình.  Kết quả này có được sau khi mô hình trải qua một số lượng bước huấn luyện nhất định dựa trên dữ liệu, các trọng số được xác định thành những giá trị cụ thể. Lúc này, "công thức tính toán" đã tương đối rõ ràng, chỉ còn chờ truyền vào các “biến” đầu vào để cho ra kết quả
 
 🔹 Kết quả (Prediction): Khi nhập thông tin của một căn nhà mới (như diện tích, vị trí...), mô hình sẽ áp dụng các trọng số đã học được để dự đoán giá bán ước tính.
+
+![Model](/assets/2025/10/25/04_model_data.png)
 
 👉  **Rõ ràng, khi đã có mô hình, ta không cần truy cập lại dữ liệu huấn luyện để dự đoán. Dữ liệu chỉ cần trong giai đoạn huấn luyện (Training) mà thôi**
 
