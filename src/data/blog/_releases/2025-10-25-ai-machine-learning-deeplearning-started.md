@@ -202,11 +202,11 @@ Một mạng nơ-ron cơ bản gồm 3 phần:
 
 Nếu Mạng Neron (Artificial Neural Networks – ANN) có **trên 3 lớp ẩn**, ta gọi đó là **Deep Learning (Học sâu)**
 
-![ann](/assets/2025/10/25/08_deeplearning.jpg)
+![ann](/assets/2025/10/25/09_deeplearning.png)
 
 # 5. So sánh Machine Learning (ML) và Deep Learning (DL)
 
-## ⚙️ Một vài tiêu trí so sánh
+Deep Learning hay được hiểu là “Học sâu”, là một nhánh nhỏ của Machine Learning (ML). Nếu như học máy cho phép máy tính học hỏi từ dữ liệu để tự động đưa ra dự đoán, thì học sâu là bước tiến xa hơn khi nó giúp máy tính tự học từ các mẫu/ví dụ và thực hiện các tác vụ cụ thể, tương tự như cách con người tư duy từ kinh nghiệm thực tế. So với Machine Learning truyền thống, Deep Learning có nhiều đặc điểm nổi bật hơn. Xin phép tổng hợp so sánh bên dưới:
 
 | Đặc điểm        | Machine Learning (ML)                     | Deep Learning (DL)                               |
 | --------------- | ----------------------------------------- | ------------------------------------------------ |
@@ -214,10 +214,3 @@ Nếu Mạng Neron (Artificial Neural Networks – ANN) có **trên 3 lớp ẩn
 | **Cách học**    | Cần **chọn đặc trưng (feature)** thủ công | **Tự học đặc trưng** từ dữ liệu                  |
 | **Tự động hóa** | Cần con người can thiệp                   | **Tự học hoàn toàn (self-learning)**             |
 | **Ứng dụng**    | Dự đoán giá, phân loại cơ bản             | Nhận diện hình ảnh, giọng nói, ngôn ngữ tự nhiên |
-
-
-## ⚙️ Lợi thế chính của Deep Learning so với Machine Learning
-
-* **Không cần gán nhãn dữ liệu thủ công** → tiết kiệm thời gian & công sức.
-* **Xử lý tốt dữ liệu lớn và phức tạp** (ảnh, video, âm thanh, văn bản…).
-* Có thể coi **DL là phiên bản “mở rộng quy mô” của ML (scalable ML)** — có thể học từ lượng dữ liệu khổng lồ mà không cần hướng dẫn trực tiếp.
