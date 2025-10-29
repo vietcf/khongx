@@ -26,10 +26,10 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "X",
-    href: "https://x.com/longaka18",
+    href: "https://x.com/khongaix",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
-  }
+  },
   // ,
   // {
   //   name: "GitHub",
@@ -37,14 +37,13 @@ export const SOCIALS: Social[] = [
   //   linkTitle: `${SITE.title} on GitHub`,
   //   icon: IconGitHub,
   // }
-  // ,
-  // {
-  //   name: "LinkedIn",
-  //   href: "https://www.linkedin.com",
-  //   linkTitle: `${SITE.title} on LinkedIn`,
-  //   icon: IconLinkedin,
-  // },
-  // {
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/long-nguyen-60aa3238b/",
+    linkTitle: `${SITE.title} on LinkedIn`,
+    icon: IconLinkedin,
+  }
+  //,{
   //   name: "Mail",
   //   href: "mailto:example@gmail.com",
   //   linkTitle: `Send an email to ${SITE.title}`,
