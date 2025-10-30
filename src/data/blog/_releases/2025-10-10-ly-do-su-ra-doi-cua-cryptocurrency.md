@@ -27,7 +27,7 @@ Trước khi bắt đầu tôi nghĩ vẫn cần tìm hiểu qua lý do tại sa
 
 Trong hệ thống thống tài chính hiện nay, việc giao dịch hàng ngày như thanh toán, chuyển khoản, phụ thuộc hoàn toàn vào việc tin cậy một bên thứ 3 cụ thể là ngân hàng, tổ chức thanh toán, và clearing house (Trung tâm bù trừ/Trung tâm thanh toán bù trừ. Tại VN có NAPAS, NHNN) để xác nhận và lưu trữ giao dịch.
 
-![banktrandional](/public/assets/2025/10/10/02_bank_tradtional.png)
+![banktrandional](/assets/2025/10/10/02_bank_tradtional.png)
 
 Việc đặt niềm tin hoàn toàn vào bên thứ 3 như hiện tại, một số **trường phái** (Nhóm hay được gọi với cái tên cypherpunks - Dự án chống kiểm duyệt) phản biện rằng nó gặp nhiều vấn đề:
 
@@ -48,7 +48,7 @@ Những người làm ra cryptocurrency tuyên bố rằng:
 >Cryptocurrency ra đời để loại bỏ sự phụ thuộc vào trung gian, trao quyền kiểm soát tài sản trực tiếp cho người dùng và tạo ra một hệ thống tài chính mở, minh bạch, toàn cầu
 
 
-![cryptocurrency](/public/assets/2025/10/10/03_crypto_p2p.png)
+![cryptocurrency](/assets/2025/10/10/03_crypto_p2p.png)
 
 
 Nó giải quyết các vấn đề mà tôi nêu ở trên bằng mô tả trong bảng sau:
@@ -66,7 +66,7 @@ Nó giải quyết các vấn đề mà tôi nêu ở trên bằng mô tả tron
 
 Ý tưởng về tiền điện tử không phải mãi tới tận khi có Bitcoin (BTC) 2009 mới có. Ý tưởng đó đã có từ khá lâu, theo wiki ([https://en.wikipedia.org/wiki/Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)) có từ những năm 1980. Trải qua vài chục năm phát triển tính đến giờ có cả trăm loại tiền điện tử (Cũng như tiền giấy có cả vài trăm đồng tiền VNĐ, USD, Erour, …). Trong đó tới thời điểm hiện tại **Bitcoin (BTC) là đồng tiền thành công và giá trị nhất.**
 
-![cryptocurrency](/public/assets/2025/10/10/04_crypto_history.png)
+![cryptocurrency](/assets/2025/10/10/04_crypto_history.png)
 
 
 Khi nhắc về Bitcoin(BTC) người ta hay nói tới cái tên *Satoshi Nakamoto* - Là cha đẻ của BTC. Có người nói đó là "bí danh" mà đứng sau là một tổ chức - Cũng chưa ai khẳng định được tính xác thực của thông tin này. Sau khi phát hành *Satoshi Nakamoto* đã trao quyền phát triển mã nguồn BTC cho cộng đồng và biến mất.
