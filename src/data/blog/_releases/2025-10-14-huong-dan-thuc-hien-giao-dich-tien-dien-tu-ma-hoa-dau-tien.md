@@ -1,6 +1,6 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/09/crypto_intro.png
+ogImage: /public/assets/2025/10/14/0_exchange_crytocurrency.png
 pubDatetime: 2025-10-14T15:22:00Z
 modDatetime: 2025-10-14T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 3, Hướng dẫn thực hiện giao dịch tiền điện tử mã hóa đầu tiên
@@ -20,11 +20,13 @@ description:
 
 Trước khi bắt đầu thực hiện **giao dịch Cryptocurrency đầu tiên**, có một số khái niệm đơn giản mà tôi nghĩ chúng ta cần nắm rõ. 
 
-Đây đều là các khái niệm chung, nghĩa là tương tự ở các đồng tiền điện tử mã hóa (Cryptocurrency) khác nhau. Bài viết này tôi dùng **Bitcoin** làm ví dụ.
+Đây đều là các khái niệm chung, nghĩa là tương tự ở các đồng tiền điện tử mã hóa (Cryptocurrency) khác nhau. Bài viết này để cụ thể hóa tôi sẽ dùng **Bitcoin** làm ví dụ.
 
 ## Một Số Loại Ví (Wallet)
 
 Giống như ngoài đời thường nếu Ví là thứ dùng để bỏ tiền thì trong crypto Ví (Wallet) là công cụ để lưu trữ, gửi, nhận Cryptocurrency. Có rất nhiều loại khác nhau và với mỗi loại lại có thể có các nhà phát triển khác nhau (Có thể là công ty hoặc cộng đồng). Việc lựa chọn loại nào của nhà phát triển nào tùy theo mục đích và kinh nghiệm của người dùng.
+
+>💡Ở giai đoạn này tạm hiểu Ví là các phần mềm/phần cứng hỗ trợ việc giao dịch tiền điện tử. Ở các phần sau cũng có thể nhắc tới khái niệm Ví nhưng sẽ đại diện cho lớp kỹ thuật khoa học máy tính bên dưới bao gồm cơ chế tạo và quản lý cặp khóa (private–public key) và địa chỉ ví (address).
 
 | Loại ví | Mô tả | Ưu điểm | Nhược điểm |
 | --- | --- | --- | --- |
@@ -47,9 +49,9 @@ Nếu bạn là người duy nhất nắm **Private Key**, bạn kiểm soát ho
 > (Khóa của bạn – Tiền của bạn. Không có khóa – Không có tiền.) 🔑💰
 > 
 
-**Private key** thường được quản lý trong các Ví (Wallet). Dĩ nhiên là cũng có thể quản lý độc lập nếu muốn.
+**Private key** thường được quản lý trong các Ví (Wallet). Dĩ nhiên là cũng có thể quản lý độc lập dưới dạng chuỗi "ký tự" (Có thể bảo quản trên máy tính hoặc bên ngoài như giấy, khắc lên kim loại, ...) nếu muốn.
 
-## Cụm Từ Hạt Giống (Seed Phrase)
+## Cụm Từ Hạt Giống (Seed Phrase/Mnemonic/Recovery phrase)
 
 ### Vấn Đề quá nhiều Private key
 
@@ -60,6 +62,8 @@ Mỗi Private key tương ứng với một "tài khoản" Cryptocurrency. Nhưn
 Để giải quyết vấn đề này, người ta đã sinh ra một cái gọi là **Seed Phrase**  (Còn được gọi là Mnemonic/Recovery phrase - Tiếng việt gọi là cụm từ Hạt giống). Một chuỗi từ ngẫu nhiên (thường 12 hoặc 24 từ).
 
 **Seed phrase** được sử dụng là nguồn gốc để sinh ra **toàn bộ các private keys** trong Ví. Ta có thể sinh ra vô số (Gần như vô hạn) các Private Key.
+
+![wallet](/assets/2025/10/10/1_wallet.png)
 
 Từ một seed nhập trên các thiết bị khác nhau sẽ cho kết quả đồng nhất thông tin Private Key trong Ví. 
 
