@@ -63,7 +63,7 @@ Mỗi Private key tương ứng với một "tài khoản" Cryptocurrency. Nhưn
 
 **Seed phrase** được sử dụng là nguồn gốc để sinh ra **toàn bộ các private keys** trong Ví. Ta có thể sinh ra vô số (Gần như vô hạn) các Private Key.
 
-![wallet](/assets/2025/10/10/1_wallet.png)
+![wallet](/assets/2025/10/14/1_wallet.png)
 
 Từ một seed nhập trên các thiết bị khác nhau sẽ cho kết quả đồng nhất thông tin Private Key trong Ví. 
 
