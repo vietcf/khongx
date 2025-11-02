@@ -1,6 +1,6 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/09/crypto_intro.png
+ogImage: /public/assets/2025/10/18/0_intro.png
 pubDatetime: 2025-10-18T15:22:00Z
 modDatetime: 2025-10-18T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 4, Cái nhìn "đầu tiên" về công nghệ xây dựng nên tiền điện tử mã hóa
@@ -31,6 +31,12 @@ Với các đồng tiền điện tử mã hóa (Bitcoin, Ethereum,...) thì l�
 
 Thay vì "đặt ở một chỗ" (tập trung), toàn bộ **Cơ sở dữ liệu** lại được nhân bản và phân tán ra khắp nơi trên Internet. Mỗi bên tham gia (Hay được gọi là peer/node) đều giữ một bản sao giống hệt nhau. Điều đặc biệt là các bên tham gia này nhiều khi không nhất thiết phải cùng một tổ chức bên ngoài đời thực, ai muốn join mạng cũng được miễn là tuân thủ "luật chơi" của mạng. 
 
+
+![btc node](/assets/2025/10/18/02_btc_nodes.png)
+
+*Để xem chi tiết số node của Bitcoin đang Online bạn có thể xem tại đây [Số node Bitcoin](https://bitnodes.io/)*
+
+
 Các **Cơ sở dữ liệu** nằm phân tán này được đồng bộ hóa với nhau theo một "luật chơi" đặc biệt - Kỹ thuật gọi là **Cơ chế đồng thuận/Consensus Mechanism** để đảm bảo tính thống nhất.
 
 Khi có giao dịch mới, các node trong mạng sẽ đóng vai trò "cùng giám sát & kiểm tra" để đảm bảo tính hợp lệ. Sau khi đạt đồng thuận, mỗi node ghi giao dịch đó vào sổ cái phân tán của mình, đảm bảo tất cả các bản đều giống hệt nhau. Điều này khác với **Cơ sở dữ liệu** tập trung việc ghi không có bên nào giám sát mà do nhà cung cấp dịch vụ quyết định.
@@ -44,11 +50,14 @@ Tuy nhiên, **Đời mà, được cái lọ thì mất cái chai** 😅. Mô h�
 
 * **Mất kiểm soát và quản lý tập trung**: Không có "ông chủ" để dễ dàng can thiệp, sửa chữa khi cần - Cái này nó là cái mà người sinh ra nó không muốn có muốn một thế giới tự do "không ai kiểm soát". Nhưng nhìn nhận lại vậy thì khá "loạn".
 * **Chi phí lưu trữ cao**: Phải nhân bản dữ liệu ở hàng ngàn nơi dĩ nhiên là tốn tài nguyên (không gian lưu trữ, điện...) hơn rất nhiều.
-* **Tốc độ ghi xác nhận chậm (Trong một số kịch bản đơn giản)**: Ví dụ: để xác nhận một giao dịch Bitcoin có thể mất 10 phút Trong khi giao dịch liên ngân hàng trong nước hiện tại chỉ tính bằng giây.
+* **Tốc độ ghi xác nhận chậm (Trong một số kịch bản đơn giản)**: Ví dụ: để xác nhận một giao dịch Bitcoin có thể mất 10 phút Trong khi giao dịch liên ngân hàng trong nước hiện tại chỉ tính bằng giây. (Dĩ nhiên đây là so sánh nếu thực hiện giao dịch trong nước chứ thực hiện giao dịch ngoài nước đặc biệt giữa 2 ngân hàng không có liên hệ trực tiếp thì tốc độ chuyển qua BTC vẫn nhanh hơn)
 
 ## Sổ cái phân tán (Distributed Ledger) và Cấu trúc Blockchain
 
 **Cơ sở dữ liệu** được đồng bộ giữa các node "này" trong mạng Cryptocurrency người ta hay gọi nó là 👉 **Distributed Ledger (Sổ cái phân tán)**. Từ giờ tôi sẽ dùng cụm từ **Distributed Ledger** để chỉ Cơ sở dữ liệu phân tán này.
+
+![btc node](/assets/2025/10/18/distributed_leger.jpg)
+
 
 > *Sẵn tiện giới thiệu: **Ledger (Sổ cái)** là một thuật ngữ bắt nguồn trong lĩnh vực kế toán, là cuốn sổ tổng hợp ghi lại mọi nghiệp vụ Nợ/Có. Về cơ bản, blockchain là một cuốn **Sổ cái điện tử** nhưng được phân tán khắp nơi.
 
