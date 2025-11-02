@@ -214,7 +214,13 @@ Từ đó:
 
 ### Thêm Timestamp
 
-Để xác định block nào sinh ra trước → thêm trường `Timestamp` (thường theo **Unix timestamp** — số giây từ `1970-01-01 00:00:00 UTC`).
+Để xác định block nào sinh ra trước → thêm trường `Timestamp` (thường theo **Unix timestamp** — số giây từ `1970-01-01 00:00:00 UTC`). Nhưng nếu `Timestamp` cũng có thể bị Node "cố tình" ghi sai thì sao? Để giải quyết vấn đề này mỗi Blockchain lại có một cơ chế kiểm soát khác nhau. Ví dụ với BTC cho phép timestamp trong block dao động nhẹ, nhưng phải thỏa 2 điều kiện:
+
+* Không nhỏ hơn median (trung vị) của 11 block trước đó → để ngăn miner ghi thời gian “lùi về quá khứ”.
+
+* Không lớn hơn thời gian thực của node nhận block + 2 giờ → để ngăn miner ghi thời gian “vượt quá tương lai”.
+
+Nếu timestamp không hợp lệ, block đó bị mạng lưới từ chối (không được thêm vào blockchain).
 
 ### Giả mã cập nhật
 
