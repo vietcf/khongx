@@ -56,7 +56,7 @@ Nếu để so sánh với một thứ trong thực tế, có thể hình dung *
 > **Tóm lại:** hash giống như “vân tay” của dữ liệu – hai dữ liệu khác nhau gần như không thể có cùng dấu vân tay.
 
 
-### Mã hóa (Encryption) và chữ ký số (Digital Signature)
+### 2.2. Mã hóa (Encryption) và chữ ký số (Digital Signature)
 
 ### Mã hóa cơ bản
 
