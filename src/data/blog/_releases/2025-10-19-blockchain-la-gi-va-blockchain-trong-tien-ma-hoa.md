@@ -1,6 +1,6 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/09/crypto_intro.png
+ogImage: /public/assets/2025/10/19/0_blockchain.png
 pubDatetime: 2025-10-19T15:22:00Z
 modDatetime: 2025-10-19T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 5, Khám phá về Blockchain - lớp kỹ thuật bên dưới của Distributed Ledger trong Cryptocurrency
