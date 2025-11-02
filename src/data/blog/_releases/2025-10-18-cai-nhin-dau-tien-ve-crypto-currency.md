@@ -22,6 +22,8 @@ Tôi không muốn viết một cách quá dài dòng, đi ngay theo kiểu "lý
 
 Hầu hết các hệ thống bạn dùng trên Internet (từ web, app, email đến thanh toán ngân hàng) đều chạy theo mô hình **Client-Server**. Cứ hình dung thế này: Toàn bộ người dùng(Client) kết nối về **một nơi duy nhất**(Server) của nhà cung cấp dịch vụ để thực hiện mọi thao tác. Mọi giao dịch, mọi thao tác – ví dụ: Chuyển tiền (Thực chất là thực hiện lệnh Ghi Nợ & Ghi Có trên các tài khoản banking) – đều được ghi lại tại một **Cơ sở dữ liệu (lịch sử giao dịch)** nằm gọn trong các máy chủ của nhà cung cấp đặt ở Data Center của họ.
 
+![center](/assets/2025/10/18/01_center.png)
+
 Mô hình này từ trước đến nay theo tôi vẫn hoạt động rất tốt, đáp ứng hầu hết nhu cầu hiện tại. Một số khác trên thế giới này lại nghĩ cần một mô hình khác hay ho hơn, lý do tôi đã giải thích khá dài ở đây 👉 [Lý do sự ra đời của Cryptocurrency](https://khongai.com/posts/tu-hoc-ve-tien-ma-hoa-cho-nguoi-moi-bat-dau-phan02-ly-do-su-da-doi-cryptocurrency/)
 
 
