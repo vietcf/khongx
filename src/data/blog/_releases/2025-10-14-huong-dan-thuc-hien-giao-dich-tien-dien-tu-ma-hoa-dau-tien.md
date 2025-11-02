@@ -26,7 +26,7 @@ Trước khi bắt đầu thực hiện **giao dịch Cryptocurrency đầu tiê
 
 Giống như ngoài đời thường nếu Ví là thứ dùng để bỏ tiền thì trong crypto Ví (Wallet) là công cụ để lưu trữ, gửi, nhận Cryptocurrency. Có rất nhiều loại khác nhau và với mỗi loại lại có thể có các nhà phát triển khác nhau (Có thể là công ty hoặc cộng đồng). Việc lựa chọn loại nào của nhà phát triển nào tùy theo mục đích và kinh nghiệm của người dùng.
 
->💡Ở giai đoạn này tạm hiểu Ví là các phần mềm/phần cứng hỗ trợ việc giao dịch tiền điện tử. Ở các phần sau cũng có thể nhắc tới khái niệm Ví nhưng sẽ đại diện cho lớp kỹ thuật khoa học máy tính bên dưới bao gồm cơ chế tạo và quản lý cặp khóa (private–public key) và địa chỉ ví (address).
+>💡Ở giai đoạn này tạm hiểu Ví là các phần mềm/phần cứng hỗ trợ việc giao dịch tiền điện tử. Ở các phần sau cũng có thể nhắc tới khái niệm Ví nhưng sẽ đại diện cho lớp kỹ thuật bên dưới (trong lĩnh vực khoa học máy tính) bao gồm cơ chế tạo và quản lý cặp khóa (private–public key) và địa chỉ ví (address) trên các phần mềm, thiết bị này.
 
 | Loại ví | Mô tả | Ưu điểm | Nhược điểm |
 | --- | --- | --- | --- |
