@@ -30,7 +30,7 @@ Blockchain ~ Chain of Blocks. Hay tiếng Việt là **“Chuỗi (Chain) các k
 ![Blockchain](/assets/2025/10/19/0_blockchain.png)
 
 
-Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi bất biến (Immutability)** nghĩa đã ghi vào {Block} thì không thể sửa. Chain càng này càng dài ra, ta chỉ có thể thêm các {Block} vào cuối Chain.
+Chuỗi (Chain) này bài trước tôi có nhắc tới là **Một chuỗi bất biến (Immutability)** nghĩa đã ghi vào Block thì không thể sửa. Chain càng này càng dài ra, ta chỉ có thể thêm các Block vào cuối Chain.
 
 # 2. Một số khái niệm liên quan đến Blockchain trong khoa học máy tính
 
@@ -68,6 +68,9 @@ Mã hóa (Encryption) là quá trình biến dữ liệu gốc (**plaintext**) t
 * Quá trình chuyển **plaintext → ciphertext** gọi là **mã hóa (encryption)**
 * Quá trình chuyển **ciphertext → plaintext** gọi là **giải mã (decryption)**
 
+![encrypt decrypt](/assets/2025/10/19/encrypt_decrypt.png)
+
+
 Mã hóa vừa đảm bảo tính "bí mật" của thông tin lại vừa đảm bảo tính "toàn vẹn" (Không bị sửa đổi của thông tin). 
 
 ⚠️ **Mã hóa (Encryption) khác với băm (Hash):**
@@ -89,7 +92,7 @@ Trong **Asymmetric Cryptography** khóa mã hóa và giải mã **khác nhau ho�
 ![ASymetric encrypt](/assets/2025/10/19/3_async_metric.png)
 
 
-*Lúc này quá trình mã hóa dữ liệu sẽ là mã hóa bằng Private Key và giải mã bằng Public Key. Với Private Key khác hoàn toàn với Public Key, biết được Public key không tính toán được Private Key*
+*Lúc này trong quá trình mã hóa dữ liệu key dùng để mã hóa (Encryption Key) được gọi là Private Key và key dùng để giải mã (Decryption key) gọi là Public Key. Private Key khác hoàn toàn với Public key, biết được Public key không thể tính toán được Private key*
 
 Có thể thấy Asymetric sử dụng **một cặp khóa**:
 
@@ -116,7 +119,7 @@ Quá trình ký và xác minh minh họa chi tiết bằng hình dưới đây:
 ![Singning](/assets/2025/10/19/5_digital_sign.png)
 
 
-So vớ mã hóa đối xứng và hash thì mã hóa bất đối xứng xử lý rất tốn thời gian hơn rất nhiều. Do vậy trong thực tế khi ký một văn bản/tài liệu bằng chữ ký số người ta hay ký lên hash thay vì ký trên văn bản gốc để tiết kiệm tài nguyên (CPU và thời gian). Lúc này lược đồ Ký số chi tiết sẽ là.
+So với mã hóa đối xứng hay hàm băm (hash), mã hóa bất đối xứng tiêu tốn nhiều tài nguyên tính toán (CPU) hơn rất nhiều. Vì vậy, trong thực tế khi ký số cho một văn bản hoặc tài liệu, người ta không ký trực tiếp trên nội dung gốc, mà sẽ chuyển văn bản đó sang dạng hash trước, rồi ký trên giá trị hash này. Cách làm này giúp giảm đáng kể khối lượng tính toán, đồng thời vẫn đảm bảo tính toàn vẹn và xác thực của văn bản gốc.
 
 ![Singning Diagram](/assets/2025/10/19/6_sign_diagram.png)
 

@@ -10,11 +10,10 @@ draft: false
 tags:
   - cryptocurrency
 description:
-  Tôi không muốn viết một cách quá dài dòng, đi ngay theo kiểu "lý thuyết" về công nghệ blockchain. Ý định là bắt đầu từ ý tưởng đơn giản nhất, dễ hiểu nhất, rồi dần đào sâu. Bài này viết sẽ cho cả người không chuyên (non-tech) lẫn người kỹ thuật (technical) đều có thể hiểu.
+  Blockchain là cách con người tạo ra “một cuốn sổ kế toán chung cho cả thế giới, nơi mọi người cùng ghi, cùng xác minh – và không cần tin ai để biết điều gì là thật.
 ---
 
-Tôi không muốn viết một cách quá dài dòng, đi ngay theo kiểu "lý thuyết" về công nghệ blockchain. Ý định là bắt đầu từ **ý tưởng đơn giản nhất, dễ hiểu nhất**, rồi **dần đào sâu**. Bài này viết sẽ cho cả **người không chuyên (non-tech)** lẫn **người kỹ thuật (technical)** đều có thể hiểu.
-
+Tôi không muốn viết về blockchain theo kiểu hàn lâm, khô khan hay nặng tính kỹ thuật. Loạt các viết sẽ bắt đầu từ những ý tưởng đơn giản nhất, dễ hiểu nhất, để bất kỳ ai — dù không rành công nghệ — cũng có thể nắm được tư tưởng cốt lõi của blockchain. Sau đó, tôi sẽ tiếp tục với những bài viết "dần" chuyên sâu hơn, để những ai làm kỹ thuật có thể đào sâu thêm các khía cạnh bên trong của công nghệ này.
 
 ## Table of contents
 
