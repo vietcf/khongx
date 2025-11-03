@@ -1,6 +1,6 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/09/crypto_intro.png
+ogImage: /public/assets/2025/10/22/0_crypto_wallet.jpg
 pubDatetime: 2025-10-22T15:22:00Z
 modDatetime: 2025-10-22T16:52:45.934Z
 title: Cryptocurrency 101 - Phần 6, Public Key, Private Key, Wallet Address, HD Wallet những thuật ngữ quan trọng cần hiểu trong Cryptocurrency
@@ -10,10 +10,10 @@ draft: false
 tags:
   - cryptocurrency
 description:
-  Bài viết này đi sâu vào cơ chế hoạt động của Private Key, Public Key, Wallet Address và HD Wallet trong Bitcoin — Cách chúng sinh ra, liên kết với nhau và đảm bảo quyền sở hữu tài sản.
+  Bài viết này sẽ đi sâu vào lớp kỹ thuật bên dưới của các loại ví tiền mã hóa (cryptocurrency wallet) — nơi lưu giữ và bảo vệ tài sản kỹ thuật số của bạn. Chúng ta sẽ cùng làm rõ các khái niệm cốt lõi như Private Key, Public Key, Wallet Address và HD Wallet trong hệ thống Bitcoin. Hiểu chúng được sinh ra như thế nào, liên kết với nhau ra sao, và vì sao chúng có thể đảm bảo quyền sở hữu tài sản một cách an toàn tuyệt đối..
 ---
 
-Bài trước ta có nói về **mật mã khóa bất đối xứng**, trong đó có một cặp: **Private key (k)** & **Public key (K)**. Buổi hôm nay tôi muốn dành nhiều thời gian hơn để nói kỹ hơn về chúng cũng những thứ liên quan như Wallet Address, HD Wallet. Nói chung không quá học thuật nhưng tôi tin mỗi ngày một chút dần dần cho đỡ nhàm chán.
+Bài trước ta có nói về **mật mã khóa bất đối xứng**, trong đó có một cặp: **Private key (k)** & **Public key (K)**. Buổi hôm nay tôi muốn dành nhiều thời gian hơn để nói kỹ hơn về chúng, cùng những khái niệm liên quan như Wallet Address, HD Wallet. 
 
 
 ## Table of contents
