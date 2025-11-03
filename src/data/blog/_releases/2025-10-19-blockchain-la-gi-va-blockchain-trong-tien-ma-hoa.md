@@ -249,6 +249,8 @@ Block {
 
 Việc tìm giá trị Nonce tốn tài nguyên (CPU, điện năng, thời gian) => Khi node tính thành công Nonce => **được thưởng coin**. Trong Crypto thuật ngữ gọi việc đó là **“đào coin” (Coin mining)**.
 
+![Coinming](/assets/2025/10/19/07_coinmining.png)
+
 Thực tế việc tìm Nonce để hash Block thỏa mãn điều kiện là công việc với khối lượng tính toán lớn, các máy có thể **hợp tác đào** (pool mining) với nhau, sau đó chia phần thưởng theo công sức đóng góp.
 
 Nếu lấy ví dụ trong thực tế thì có thể ví việc **Đào Coin** như là việc làm thuê ghi sổ kế toán cho **Blockchain** vậy.
