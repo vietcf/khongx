@@ -127,7 +127,7 @@ So với mã hóa đối xứng hay hàm băm (hash), mã hóa bất đối xứ
 
 ## 3.1. Tiếp cận Blockchain từ cấu trúc đơn giản nhất
 
-Ta vừa nói Blockchain được tạo từ các Block. Hãy bắt đầu với một cấu trúc đơn giản **mỗi block** có một BlockID chỉ STT của block, một trường `PreviousBlockHash` chứa **hash của block ngay trước đó** (`Hash(Block trước)`) và Data là dữ liệu chứa trong Block - Tất nhiên rồi phải có dữ liệu vì Blockchain để lưu dữ liệu (Với trường hợp của BTC đó là thông tin giao dịch)
+Ta vừa nói Blockchain được tạo từ các Block. Hãy bắt đầu với một cấu trúc đơn giản **mỗi block** có một **BlockID** định danh block, một trường `PreviousBlockHash` chứa **hash của block ngay trước đó** (`Hash(Block trước)`) và Data là dữ liệu chứa trong Block - Tất nhiên rồi phải có dữ liệu vì Blockchain để lưu dữ liệu (Với trường hợp của BTC đó là thông tin giao dịch)
 
 Ta sẽ nghĩ ngay tới trường hợp đặc biệt, **Block đầu tiên**. Do không có khối trước, nên ta quy ước `PreviousBlockHash = 0x000...` - Một chuỗi toàn 0 (Thực tế với BTC là 64 số 0). Block đầu tiên này người ta hay gọi là Genesis Block (Nghĩa tiếng việt là Khối khởi nguyên).
 
