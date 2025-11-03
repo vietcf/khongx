@@ -265,4 +265,4 @@ Tôi cũng định viết một chương trình nhỏ mô tả một mạng Bloc
 * `PreviousBlockHash` → đảm bảo **chuỗi liên kết chặt chẽ**.
 * `Nonce` + “bài toán hash” → tạo **chi phí thực, chống spam, thiết lập đồng thuận**.
 * `Timestamp` → xác định thời gian block được tạo.
-* `Đào coin` → là **hoạt động đi tìm Nonce thỏa mã điều kiện ~ làm thuê ghi sổ kế toán cho mạ blockchain.
+* `Đào coin` → là **hoạt động đi tìm Nonce thỏa mã điều kiện ~ làm thuê ghi sổ kế toán cho mạng blockchain.
