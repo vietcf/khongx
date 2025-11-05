@@ -66,6 +66,10 @@ Tương tự **Thuật toán học máy Là tập hợp các bước hoặc quy 
 
 => 💡Tóm lại: ML Algorithm nó chỉ là các bước hoặc quy tắc toán học giúp máy tính "tự học" từ dữ liệu và "rút ra quy luật".
 
+Các thuật toán ML tương đối đa dạng.
+
+![ml algo](/assets/2025/10/26/0_intro_ml2.png)
+
 ## 🧩 Mô hình học máy (Machine Learning Model)
 
 >Đây chắc là thuật ngữ mà mọi người nghe nhiều nhất gần đây. Nào là mô hình a, b, c bao nhiêu tỉ "tham số"... Có vẻ như càng nhiều "tỉ" thì càng khủng ...
