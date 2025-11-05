@@ -21,7 +21,7 @@ description:
 
 Không có định nghĩa tuyệt đối chính xác, nhưng tôi có đọc qua một lượt tổng hợp đại ý như sau:
 
-> **Trí tuệ nhân tạo (Artificial Intelligence - AI)**: Là một lĩnh vực trong khoa học máy tính, với mục tiêu là giúp máy tính có thể “hành xử” giống con người — biết suy luận, học hỏi, hiểu ngôn ngữ, ra quyết định và sáng tạo.
+**Trí tuệ nhân tạo (Artificial Intelligence - AI): Là một lĩnh vực trong khoa học máy tính, với mục tiêu là giúp máy tính có thể “hành xử” giống con người — biết suy luận, học hỏi, hiểu ngôn ngữ, ra quyết định và sáng tạo.**
 
 **Ví dụ 👉**
 
@@ -39,13 +39,13 @@ AI, ML, DL (tôi sẽ nói sau) có mối quan hệ mật thiết mô tả ngắ
 
 Sự phát triển lớn tiếp theo của AI chính là **Học máy (Machine Learning – ML)**.
 
-ML là một **nhánh con của AI**, mô tả khả năng **máy tính học hỏi từ dữ liệu mà không cần lập trình trực tiếp** – tương tự như cách con người học từ kinh nghiệm.
+**ML là một nhánh con của AI, mô tả khả năng máy tính học hỏi từ dữ liệu mà không cần "lập trình trực tiếp"** – tương tự như cách con người học từ kinh nghiệm.
 
-*“Lập trình trực tiếp” - nghĩa là con người phải viết ra từng quy tắc, từng điều kiện cụ thể để máy tính làm theo. Ví dụ: Như các lệnh If-else trong các ngôn ngữ lập trình, máy tính chỉ làm đúng theo quy tắc máy móc mà không "hiểu" hay "tự học gì". Với ML thay vì viết các quy tắc cụ thể, ta cho máy “dữ liệu + ví dụ kết quả đúng”, rồi để máy "tự dò/tìm" ra quy tắc ẩn trong dữ liệu đó. Ví dụ: Bạn không viết ra quy tắc “khuôn mặt có mắt, mũi, miệng là người. Bạn chỉ đưa cho máy hàng nghìn bức ảnh có người và không có người, kèm nhãn “người” / “không người”. Máy sẽ tự học được đặc trưng giúp phân biệt hai loại ảnh đó*
+*“Lập trình trực tiếp” - nghĩa là con người phải viết ra từng quy tắc, từng điều kiện cụ thể để máy tính làm theo. Với ML thay vì viết các quy tắc cụ thể, ta cho máy “dữ liệu + ví dụ kết quả đúng”, rồi để máy "tự dò/tìm" ra quy tắc ẩn trong dữ liệu đó. Ví dụ: Bạn không viết ra quy tắc “khuôn mặt có mắt, mũi, miệng là người. Bạn chỉ đưa cho máy hàng nghìn bức ảnh có người và không có người, kèm nhãn “người” / “không người”. Máy sẽ tự học được đặc trưng giúp phân biệt hai loại ảnh đó*
 
 Theo thời gian, càng có nhiều dữ liệu và quá trình huấn luyện, mô hình ML càng **chính xác hơn và ra quyết định tốt hơn**.
 
->Trí tuệ nhân tạo (AI) xuất hiện từ những năm 1950 với mục tiêu mô phỏng tư duy con người. Từ đó, nhánh **Học máy (ML)** phát triển – cho phép máy tự học từ dữ liệu. ML bùng nổ mạnh mẽ trong thời đại **Big Data**, **GPU**, và **Deep Learning**, trở thành nền tảng cho hầu hết công nghệ hiện đại ngày nay.
+*Trí tuệ nhân tạo (AI) xuất hiện từ những năm 1950 với mục tiêu mô phỏng tư duy con người. Từ đó, nhánh Học máy (ML) phát triển – cho phép máy tự học từ dữ liệu. ML bùng nổ mạnh mẽ trong thời đại Big Data, GPU, và Deep Learning, trở thành nền tảng cho hầu hết công nghệ hiện đại ngày nay.*
 
 # 3. Thuật toán học máy (Machine Learning Algorithm), Training, Model và Deployment
 
@@ -53,9 +53,13 @@ Ta hay nghe về các thuật ngữ như Thuật toán học máy (Machine Learn
 
 ## 🧮 Thuật toán học máy (Machine Learning Algorithm)
 
-Thuật toán trong toán học là tập hợp các bước hoặc quy tắc rõ ràng để giải quyết một vấn đề hoặc thực hiện một nhiệm vụ cụ thể. Ví dụ: Trong toán học, thuật toán có thể là **các bước** để giải phương trình bậc hai, tính ước chung lớn nhất (UCLN), ...
+Thuật toán trong toán học là tập hợp các bước hoặc quy tắc rõ ràng để giải quyết một vấn đề hoặc thực hiện một nhiệm vụ cụ thể.
 
-Tương tự thuật toán học máy Là tập hợp các **bước hoặc quy tắc toán học** giúp máy tính **tự học từ dữ liệu** và **rút ra quy luật**.
+**Ví dụ 👉**
+
+Trong toán học, thuật toán có thể là **các bước** để giải phương trình bậc hai, tính ước chung lớn nhất (UCLN), ...
+
+Tương tự **Thuật toán học máy Là tập hợp các bước hoặc quy tắc toán học giúp máy tính tự học từ dữ liệu và rút ra quy luật.**
 
 >Nói tới toán là đau đầu :) nói thật lập trình viên 100 ông thì 99 ông sợ toán :) 1 ông còn lại làm nghiên cứu chắc thích toán. Có lẽ vậy mà trước giờ nói tới AI, ML, DL khá ngại vì "nghe nói" nó toàn toán.
 >Vài thuật toán mà ông nào học lập trình cũng học như tìm kiếm, sắp xếp, ... thực tế chúng cũng đơn giản chủ yếu là lặp lại một số bước. Qua trọng là hiểu ý tưởng là code được. Thuật toán ML tôi nghĩ cũng vậy hiểu là viết được, chắc phức tạp hơn chút thôi. Mà giờ có lib hết rồi khéo chả cần code hiểu ý tưởng để truyền & điều chỉnh params cho phù hợp.
