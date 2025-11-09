@@ -1,6 +1,6 @@
 ---
 author: khongai
-ogImage: /public/assets/2025/10/26/0_intro_ml2.png
+ogImage: /public/assets/2025/10/30/0_neuron_intro.jpg
 pubDatetime: 2025-10-30T15:22:00Z
 modDatetime: 2025-10-30T16:52:45.934Z
 title: AI 101 - Phần 3, Mạng Nơ ron (Neural Network) và Học sâu (Deep Learning)
@@ -13,4 +13,4 @@ description:
   Bài viết này chúng ta sẽ cùng nhau tìm hiểu tiếp các khái niệm về Mạng Neron (Neural Network) và Học sâu (Deeplearning)
 ---
 
-Bài viết này chúng ta sẽ cùng nhau tìm hiểu về DL, LLM và GenAI
+Bài viết này chúng ta sẽ cùng nhau tìm hiểu về Neural Network và Deep Learning
