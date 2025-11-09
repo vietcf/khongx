@@ -38,3 +38,7 @@ Hiện tượng này được các nhà khoa học mô tả thông qua mô hình
 Phóng to liên kết giữa 2 tế bào thần kinh.
 
 ![3 lien ket](/assets/2025/10/26/3_link_zoom.png)
+
+Khi con người học tập hoặc trải nghiệm điều mới, não sẽ điều chỉnh cường độ của các kết nối thần kinh, củng cố những liên kết thường xuyên hoạt động và làm yếu dần những liên kết ít sử dụng.
+
+Chính sự thay đổi liên tục này tạo nên các mẫu kết nối (patterns) trong não, giúp chúng ta ghi nhớ, nhận biết và phản ứng ngày càng chính xác hơn.
