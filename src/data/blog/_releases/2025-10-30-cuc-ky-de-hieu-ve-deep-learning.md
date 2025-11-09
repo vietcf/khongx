@@ -13,4 +13,6 @@ description:
   Bài viết này chúng ta sẽ cùng nhau tìm hiểu tiếp các khái niệm về Mạng Neron (Neural Network) và Học sâu (Deeplearning)
 ---
 
-Bài viết này chúng ta sẽ cùng nhau tìm hiểu về Neural Network và Deep Learning
+Quay trở lại với hình vẽ về "đại gia đình AI", buổi nay ta sẽ tìm hiểu các khái niệm liên quan tới Neural Network và Deep Learning.
+
+![1 ai](/assets/2025/10/26/1_neural_network.png)
