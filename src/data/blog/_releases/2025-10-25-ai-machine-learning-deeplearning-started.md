@@ -107,7 +107,7 @@ Thuật toán sẽ tính sai số (error) giữa giá dự đoán và giá thậ
 
 Sau đó điều chỉnh dần w,b để giảm sai số (dựa trên hàm mất mát — loss function, ví dụ Mean Squared Error).
 
-Sau nhiều vòng lặp, mô hình học được các giá trị tối ưu của w, b.
+Sau nhiều vòng lặp, mô hình học được các giá trị tối ưu của w, b là ```w*``` và ```b*``` (Các giá trị cụ thể)
 
 🔹 Mô hình (Model): Sau khi học xong, ta có:
 
