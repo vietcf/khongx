@@ -41,22 +41,11 @@ Số lượng thuật toán Machine Learning rất đa dạng, ở đây chỉ x
 
 Mô hình toán học chung cho bài toán hồi quy tuyến thính
 
-```mathematica
-$$
-\hat{y} = w \cdot x + b
-$$
-```
-
-```mathematica
-x : Đầu vào (input, ví dụ: diện tích nhà)
-\hat{y}: Đầu ra (dự đoán, ví dụ: giá nhà)
-w: Hệ số (độ dốc đường thẳng)
-b: Hằng số chệch (điểm cắt trục tung)
-```
+![ml math](/assets/2025/10/26/1_math.png)
 
 Vẽ lên nó là đường thẳng
 
-![image.png](attachment:382ca3e1-07b3-4e9c-8e5b-12fa124b0c55:image.png)
+![ml graph](/assets/2025/10/26/2_graph.png)
 
 ## Hàm mục tiêu (Loss function)
 
@@ -64,21 +53,17 @@ Vẽ lên nó là đường thẳng
 
 Dùng **Mean Squared Error (MSE)** để đo sai số giữa dự đoán và thực tế:
 
-```mathematica
-[
-J(w,b) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2
-]
-```
+![ml func](/assets/2025/10/26/3_func.png)
 
 **→ Mục tiêu:** tìm w, b sao cho J nhỏ nhất <=> **Ta nhận thấy rằng các bài toán ML về cơ bản là đi tìm giá trị để hàm mục tiêu nhỏ nhất**
 
 ## Cách học - Quá trình học
 
-Trong toán học các bài toán này thực ra có nhiều cách giải. "Đọc qua" (vì tôi không có nhu cầu đi sâu về toán) tôi thấy người ta có 2 phương pháp chính là:
+Trong toán học các giải bài toán Hàm mục tiêu này có nhiều cách giải. Search thì có 2 cách cơ bản là Gradient Descent hoặc Ordinary Least Squares - Normal Equation. 
 
-Sau khi tìm được cách giải bài toán này ta đi vào implement chúng diễn dải dưới dạng code mà thôi (Thật ra là có lib họ viết sẵn hết rồi).
+Tôi thì cũng không dành lắm và cũng không quan tâm lắm vì thư viện có rồi, nên có thể bắt tay vào code luôn thôi.
 
-### Code lập trình
+## Code lập trình
 
 Trước khi cài đặt chương trình bằng python ta cần giới thiệu khái niệm tập train và tập test. Dữ liệu ban đầu thường được tách thành 2 tập train và test. 
 
@@ -162,4 +147,6 @@ print(f"\n🏠 Dự đoán giá cho nhà 110 m²: {predicted_price[0]:.2f} tỷ 
 
 ```
 
-Lúc này nhập vào diện tích sẽ ra giá nhà tương ứng. Quá đơn giản phải không :) 
+Quá đơn giản phải không :) 
+
+*Ta lấy ví dụ đơn giản thì nó thế nhưng thực tế làm về ML chắc phức tạp hơn nhiều. Nhưng làm gì chả thế có cái khó, cái dễ & tôi nghĩ nếu tập trung học thì chắc cũng không tới mức không thể không học được,*
