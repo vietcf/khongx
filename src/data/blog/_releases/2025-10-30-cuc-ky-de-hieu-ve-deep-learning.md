@@ -15,7 +15,7 @@ description:
 
 Quay trở lại với hình vẽ về "đại gia đình AI", buổi nay ta sẽ tìm hiểu các khái niệm liên quan tới Neural Network và Deep Learning.
 
-![1 ai](/assets/2025/10/26/1_neural_network.png)
+![1 ai](/assets/2025/10/30/1_neural_network.png)
 
 # Não người và cơ chế ghi nhớ thông tin
 
@@ -33,11 +33,11 @@ Tóm lại: "Càng nhiều đặc điểm được ghi nhớ → tín hiệu cà
 
 Hiện tượng này được các nhà khoa học mô tả thông qua mô hình neuron sinh học. Mỗi ký ức hay nhận thức được hình thành từ mức độ liên kết giữa các tế bào thần kinh (neurons) – nơi các tín hiệu điện – hóa học được truyền qua các khớp thần kinh (synapses).
 
-![2 nao nguoi](/assets/2025/10/26/2_nao_nguoi.png)
+![2 nao nguoi](/assets/2025/10/30/2_nao_nguoi.png)
 
 Phóng to liên kết giữa 2 tế bào thần kinh.
 
-![3 lien ket](/assets/2025/10/26/3_link_zoom.png)
+![3 lien ket](/assets/2025/10/30/3_link_zoom.png)
 
 Khi con người học tập hoặc trải nghiệm điều mới, não sẽ điều chỉnh cường độ của các kết nối thần kinh, củng cố những liên kết thường xuyên hoạt động và làm yếu dần những liên kết ít sử dụng.
 
