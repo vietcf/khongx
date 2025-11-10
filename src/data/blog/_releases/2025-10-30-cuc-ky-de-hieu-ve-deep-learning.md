@@ -42,3 +42,71 @@ Phóng to liên kết giữa 2 tế bào thần kinh.
 Khi con người học tập hoặc trải nghiệm điều mới, não sẽ điều chỉnh cường độ của các kết nối thần kinh, củng cố những liên kết thường xuyên hoạt động và làm yếu dần những liên kết ít sử dụng.
 
 Chính sự thay đổi liên tục này tạo nên các mẫu kết nối (patterns) trong não, giúp chúng ta ghi nhớ, nhận biết và phản ứng ngày càng chính xác hơn.
+
+# Mạng Neuron (Neural Network) trong học máy và Học sâu (Deep learning)
+
+Cơ chế ghi nhớ của não người bên trên được mạng nơ-ron nhân tạo (Artificial Neural Networks – ANN) “mô phỏng” lại trong máy tính với một cấu trúc đơn giản hơn, và chính điều đó là điểm “cốt lõi” giúp ANN cho phép máy tính thực hiện những việc tương tự như não con người.
+
+## Cấu trúc cơ bản một Neural Network
+
+Một mạng neural nhân tạo cơ bản gồm ba loại tầng/lớp (layers):
+
+![4 neural network](/assets/2025/10/30/04_nerual_network.png)
+
+* Lớp đầu vào (Input Layer): Nhận dữ liệu ban đầu.
+
+* “Các” lớp ẩn (Hidden Layers): Nhận dữ liệu từ Input Layer. Xử lý dữ liệu thông qua hàng triệu phép toán ma trận và phi tuyến. Trả lại kết quả tính toán cho Output Layer. Chú ý từ “các” có nghĩa là có thể có “một” hoặc “nhiều” hidden layer.
+ 
+* Lớp đầu ra (Output Layer):  Đưa ra kết quả dự đoán cuối cùng.
+
+* Mỗi Layer gồm nhiều vòng tròn, mỗi vòng tròn (circle) trong sơ đồ gọi là một node (hoặc nơron nhân tạo), mô phỏng lại hoạt động của một tế bào thần kinh trong não người.
+
+⚠️ **Deep Learning:**: Neural Network có số  Hidden Layers > 4 thì được gọi là Deep Learning
+
+## Neural Network phản ánh "tín hiệu" bằng cách nào
+
+Để thể hiện mối liên hệ giữa các Neuron người ta sử dụng một mô hình toán học như sau:
+
+![5 act func](/assets/2025/10/30/05_activation_func.png)
+
+
+Lúc này mỗi nơ-ron (neuron) trong mạng hoạt động giống như một đơn vị tính toán, cụ thể:
+
+* Nhận đầu vào (Input): Mỗi nơ-ron nhận giá trị từ các nơ-ron lớp trước ~ x
+
+* Tính toán trọng số (Weights): Mỗi đầu vào được nhân với một trọng số (weight) nhất định ~ w
+
+* Tổng hợp thông tin (Summation): Các giá trị đầu vào được cộng lại và thêm một hệ số điều chỉnh (bias) ~ b
+
+* Hàm kích hoạt (Activation Function): Xác định xem tín hiệu có được truyền tiếp hay không ~ f. Hàm f này đặc trưng cho từng layer, và được lựa chọn tùy theo mục đích của mô hình.
+
+* Truyền sang lớp tiếp theo (Output): Nếu tín hiệu đầu ra sau khi qua hàm kích hoạt đủ mạnh (vượt ngưỡng), nó sẽ được truyền sang lớp kế tiếp để tiếp tục xử lý.
+
+## Mô hình X có hàng tỷ tham số? là gì
+
+Ta hay nghe nói:
+
+>ChatGPT có 175 tỷ tham số,
+>
+>Claude có 560 tỷ tham số…
+
+**Tham số (parameter)** chính là tất cả **các trọng số (weights)** và **hệ số chệch (biases)** kết nối giữa neuron với neuron.
+
+Nếu sử dụng tối ưu thì "càng nhiều tham số" =>  mạng càng sâu và rộng => Độ chính xác càng cao
+
+## Cơ chế học (Learning Mechanism) 
+
+Về bản chất, Deep Learning cũng giống Machine Learning: mô hình học từ dữ liệu để tìm ra mối quan hệ giữa đầu vào (X) và đầu ra (Y). Điểm khác biệt nằm ở cách mạng neuron tự điều chỉnh hàng triệu trọng số (weights) và hệ số chệch (biases) để dần cải thiện độ chính xác. Quá trình học diễn ra qua ba bước chính:
+
+![5 improve](/assets/2025/10/30/06_improve.png)
+
+
+* Lan truyền thuận (Forward Propagation): Dữ liệu đi qua các lớp mạng, mỗi lớp biến đổi đầu vào một chút để trích xuất đặc trưng, cho đến khi ra kết quả dự đoán ở lớp cuối.
+
+* Tính sai số (Loss Function): So sánh kết quả dự đoán với giá trị thật để biết mô hình “sai lệch bao nhiêu”.
+
+* Lan truyền ngược (Backpropagation): Mạng tính toán đạo hàm (gradient) và tự điều chỉnh các trọng số theo hướng giảm sai số.
+
+Ba bước này được lặp lại hàng triệu lần (training loop). Mỗi lần, mô hình học thêm một chút từ sai số của chính nó — nhờ đó các trọng số dần được tối ưu, và mạng ngày càng “thông minh” hơn.
+
+💡 Chính cơ chế lặp – phản hồi – điều chỉnh này giúp mạng neuron tự cải thiện mô hình theo thời gian, tương tự cách não người củng cố kết nối thần kinh khi học.
