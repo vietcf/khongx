@@ -109,4 +109,38 @@ Về bản chất, Deep Learning cũng giống Machine Learning: mô hình học
 
 Ba bước này được lặp lại hàng triệu lần (training loop). Mỗi lần, mô hình học thêm một chút từ sai số của chính nó — nhờ đó các trọng số dần được tối ưu, và mạng ngày càng “thông minh” hơn.
 
-💡 Chính cơ chế lặp – phản hồi – điều chỉnh này giúp mạng neuron tự cải thiện mô hình theo thời gian, tương tự cách não người củng cố kết nối thần kinh khi học.
+💡 Chính cơ chế lặp – phản hồi – điều chỉnh này giúp mạng neuron tự cải thiện mô hình theo thời gian, tương tự cách não người củng cố kết nối thần kinh khi học
+
+## Một số thuật ngữ liên quan Epoch / Batch / Iteration
+
+| Thuật ngữ | Nghĩa | Liên hệ ví dụ |
+| --- | --- | --- |
+| **Epoch** | Một vòng học qua toàn bộ dữ liệu | Một lần vẽ lại toàn bộ đường cong |
+| **Batch** | Một nhóm nhỏ dữ liệu trong mỗi epoch | Vẽ từng phần nhỏ của đường cong |
+| **Iteration** | Một lần cập nhật trọng số (sau mỗi batch) | Chỉnh nét vẽ sau mỗi đoạn |
+
+## Self-Supervised Learning
+
+> Self-Supervised Learning (SSL) là phương pháp học mà mô hình tự tạo ra “nhãn” cho chính dữ liệu của mình —
+> không cần con người gán nhãn thủ công.
+
+💡 Mô hình **tự đặt bài toán – tự tạo đáp án – rồi tự học**.
+
+Đây là lý do gọi là **“tự giám sát”** (self-supervised).
+
+## Các loại mô hình Deeplearning
+
+| **Loại mô hình** | **Ứng dụng chính** |
+| --- | --- |
+| **1. Convolutional Neural Network (CNN)** | Nhận dạng hình ảnh, phát hiện vật thể, phân đoạn ảnh, thị giác máy tính (Computer Vision) |
+| **2. Recurrent Neural Network (RNN)** | Dự báo chuỗi thời gian, xử lý ngôn ngữ tự nhiên (NLP), nhận dạng giọng nói |
+| **3. Long Short-Term Memory (LSTM)** | Phân tích chuỗi dữ liệu dài, dịch máy, dự đoán văn bản, nhận dạng lời nói |
+| **4. Gated Recurrent Unit (GRU)** | Giống LSTM nhưng nhẹ hơn, dùng cho dự báo thời gian thực hoặc dữ liệu tuần tự |
+| **5. Autoencoder (AE)** | Nén dữ liệu, giảm chiều, phát hiện bất thường (anomaly detection), khử nhiễu ảnh hoặc tín hiệu |
+| **6. Variational Autoencoder (VAE)** | Sinh dữ liệu mới (ảnh, âm thanh), học biểu diễn tiềm ẩn (latent representation) |
+| **7. Generative Adversarial Network (GAN)** | Tạo ảnh, video, âm thanh, deepfake, tăng dữ liệu huấn luyện |
+| **8. Transformer** | Xử lý ngôn ngữ tự nhiên, dịch máy, tóm tắt, chatbot, sinh văn bản (LLM) |
+| **9. Vision Transformer (ViT)** | Nhận dạng và phân loại ảnh, phát hiện vật thể, hiểu ngữ cảnh hình ảnh |
+| **10. Diffusion Model** | Sinh ảnh, video, giọng nói; ví dụ: Stable Diffusion, DALL·E, Midjourney |
+| **11. Graph Neural Network (GNN)** | Phân tích mạng xã hội, khuyến nghị (recommendation), phát hiện gian lận, hóa học tính toán |
+| **12. Mamba Model (SSM-based)** | Xử lý dữ liệu tuần tự, mô hình ngôn ngữ (LLM) hiệu năng cao, thay thế Transformer tiềm năng |
