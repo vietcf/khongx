@@ -15,6 +15,11 @@ description:
 
 >Gần đây vì lý do công việc tôi phải tìm hiểu về AI, ML, DL - dĩ nhiên chỉ ở mức cần hiểu nôm na **Nó là cái gì**. Trong quá trình đọc, tôi có ghi chú lại vài điều, biết đâu sẽ thành một chuỗi bài nho nhỏ. Giống như những loạt bài trước, loạt bài về AI, ML, DL của tôi cũng mang phong cách **Mì ăn liền**, nhanh gọn & thực dụng của **người đi làm**
 
+
+![AI ML Flow](/assets/2025/10/25/flow.png)
+
+>👉 Buổi đầu tiên theo Flow kia sẽ về AI và ML!
+
 ## Table of contents
 
 # 1. Trí tuệ nhân tạo (Artificial Intelligence – AI) là gì?
