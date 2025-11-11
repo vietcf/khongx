@@ -14,3 +14,5 @@ description:
 ---
 
 Bài viết này chúng ta sẽ cùng nhau tìm hiểu tiếp các khái niệm về GenAI và LLM
+
+![AI ML Flow](/assets/2025/10/25/flow.png)
